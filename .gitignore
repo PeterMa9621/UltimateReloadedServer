@@ -133,3 +133,5 @@ plugins/CratesPlus/data.yml
 usernamecache.json
 
 wepif.yml
+
+plugins/QuickShop/shops.db
