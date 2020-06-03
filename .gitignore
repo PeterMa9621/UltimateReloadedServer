@@ -1,0 +1,135 @@
+# #####################
+# Maps
+# #####################
+world/
+world_nether/
+world_the_end/
+shengcun/
+kuangjie/
+plot/
+
+# #####################
+# Other dir
+# #####################
+players/
+
+# #####################
+# Logs
+# #####################
+logs/
+
+# #####################
+# Files under the root
+# #####################
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+whitelist.json
+
+# #####################
+# Plugins
+# #####################
+plugins/ActionHealth/players/
+plugins/AntiXray/Data/
+plugins/AsyncWorldEdit/undo/
+plugins/Citizens/saves.yml
+plugins/ClockGUI/Data/
+plugins/CrazyAuctionsPlus/Players/
+plugins/CrazyAuctionsPlus/ItemCollection.yml
+plugins/CrazyAuctionsPlus/Category.yml
+plugins/CrazyAuctionsPlus/Database.yml
+plugins/DailyQuest/Data/
+plugins/DungeonsXL/players/
+plugins/DungeonsXL/backups/
+plugins/DungeonsXL/maps/
+plugins/DungeonsXL/data.yml
+plugins/Elevator/data.dat
+plugins/Essentials/userdata/
+plugins/Essentials/warps/
+plugins/Essentials/usermap.csv
+plugins/Essentials/spawn.yml
+plugins/HolographicDisplays/database.yml
+plugins/ItemsAdder/storage/cache
+plugins/ItemsAdder/storage/players
+plugins/ItemsAdder/storage/regions_data
+plugins/LibsDisguises/GameProfiles/
+plugins/LibsDisguises/SavedDisguises/
+plugins/LibsDisguises/Skins/
+plugins/LuckPerms/luckperms-h2.mv.db
+plugins/LuckPerms/contexts.json
+plugins/MangoQuest/data/
+plugins/MoreFish/records/
+plugins/Multiverse-Core/worlds.yml
+plugins/MyPet/pets.db
+plugins/MyPet/exp.cache
+plugins/MyPet/worldgroups.yml
+plugins/MythicMobs/SavedData/
+plugins/newtShop/data/
+plugins/OpenVirtualBook/data.yml
+plugins/PlayerPoints/storage.yml
+plugins/PVPSwitch/Data/
+plugins/Residence/Backup/
+plugins/Residence/Save/
+plugins/Residence/ShopSigns.yml
+plugins/Residence/ShopVotes.yml
+plugins/Residence/uuids.yml
+plugins/TabooLib/playerdata/
+plugins/VipSystem/Data/
+plugins/WorldEdit/sessions/
+plugins/WorldGuard/cache/
+plugins/WorldGuard/worlds/
+plugins/PlotSquared/storage.db
+
+
+
+
+
+
+server.properties
+
+plugins/ProtocolLib/lastupdate
+
+run.sh
+
+run.bat
+
+plugins/ScoreBoard/config.yml
+
+plugins/AuthMe/authme.db
+
+plugins/ServerListPlus/PlayerCache.json
+
+plugins/AuthMe/authme.log
+
+plugins/ItemsAdder/config.yml
+
+plugins/MultiChat/namedata.dat
+
+runDev.bat
+
+plugins/ItemsAdder/storage/data.yml
+
+plugins/CrazyAuctionsPlus/Database.db
+
+plugins/SimpleClans/SimpleClans.db
+
+.mixin.out/audit/mixin_implementation_report.txt
+
+config/astralsorcery/amulet_enchantments.cfg
+
+*.log
+
+paper.yml
+
+spigot.yml
+
+OpenComputersMod-1.7.4.153-lua53-native.64.so
+
+plugins/CratesPlus/config.yml
+
+plugins/CratesPlus/data.yml
+
+usernamecache.json
+
+wepif.yml

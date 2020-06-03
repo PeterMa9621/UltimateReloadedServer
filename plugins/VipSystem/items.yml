@@ -1,0 +1,67 @@
+vip1:
+  Money: 2500
+  MinInventory: 0
+  Items:
+    '1':
+      Command: ph give %player% diamond_block 16
+    '2':
+      Command: ph give %player% gold_block 16
+    '3':
+      Command: ph give %player% iron_block 16
+    '4':
+      Command: cc give p 九选一 3 %player%
+    '5':
+      Command: cc give p 快速 3 %player%
+    '6':
+      Command: ls give %player% double 2
+
+
+vip2:
+  Money: 5000
+  MinInventory: 0
+  Items:
+    '1':
+      Command: ph give %player% diamond_block 32
+    '2':
+      Command: ph give %player% gold_block 32
+    '3':
+      Command: ph give %player% iron_block 32
+    '4':
+      Command: cc give p 九选一 3 %player%
+    '5':
+      Command: cc give p 快速 3 %player%
+    '6':
+      Command: cc give p 老虎机 3 %player%
+    '7':
+      Command: cc give p 跑马灯 3 %player% 
+    '8':
+      Command: ls give %player% double 2
+    '9':
+      Command: ls give %player% triple 2
+      
+vip3:
+  Money: 10000
+  MinInventory: 0
+  Items:
+    '1':
+      Command: ph give %player% diamond_block 64
+    '2':
+      Command: ph give %player% gold_block 64
+    '3':
+      Command: ph give %player% iron_block 64
+    '4':
+      Command: cc give p 九选一 3 %player%
+    '5':
+      Command: cc give p 快速 3 %player%
+    '6':
+      Command: cc give p 老虎机 3 %player%
+    '7':
+      Command: cc give p 跑马灯 3 %player% 
+    '8':
+      Command: cc give p 烟花 3 %player%
+    '9':
+      Command: cc give p 疯狂 3 %player% 
+    '10':
+      Command: ls give %player% double 5
+    '11':
+      Command: ls give %player% triple 5
