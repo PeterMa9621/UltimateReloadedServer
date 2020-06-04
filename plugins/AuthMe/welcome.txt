@@ -1,0 +1,1 @@
+欢迎 {PLAYER} 来到 {SERVER} 服务器！

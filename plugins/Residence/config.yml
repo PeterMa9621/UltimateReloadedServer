@@ -147,31 +147,7 @@ Global:
     TeleportTitleMessage: true
   RandomTeleportation:
     Worlds:
-      DIM-5:
-        Enabled: true
-        MaxCoord: 1000
-        MinCoord: 500
-        CenterX: 0
-        CenterZ: 0
-      DIM-1:
-        Enabled: true
-        MaxCoord: 1000
-        MinCoord: 500
-        CenterX: 0
-        CenterZ: 0
-      DIM-2:
-        Enabled: true
-        MaxCoord: 1000
-        MinCoord: 500
-        CenterX: 0
-        CenterZ: 0
-      DIM1:
-        Enabled: true
-        MaxCoord: 1000
-        MinCoord: 500
-        CenterX: 0
-        CenterZ: 0
-      DIM-3:
+      world:
         Enabled: true
         MaxCoord: 1000
         MinCoord: 500
