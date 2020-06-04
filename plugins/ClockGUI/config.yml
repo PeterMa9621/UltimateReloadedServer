@@ -1,0 +1,358 @@
+# 设置钟表属性
+Clock:
+  # 是否在玩家登录时，自动获取钟表菜单(如果身上已拥有则不会重复获得)
+  AutoGetClock: true
+  # 钟表菜单显示名称
+  Name: §a钟表菜单
+  # 钟表菜单Lore
+  Lore: §6服务器钟表菜单%§6右键我打开菜单
+  World:
+  - world
+  - world_nether
+  - world_the_end
+  - shengcun
+  - kuangjie
+  - plot
+  - boss
+
+# 所有菜单的详细设置
+GUI:
+  # 0号菜单为钟表菜单的主菜单
+  # 请一定要将各个菜单按顺序设置
+  '0':
+    # 主菜单的名称
+    Name: §1§l服务器钟表菜单
+    # 主菜单的按钮设置
+    Item:
+      # 第一个按钮
+      '1':
+        # 按钮位置(0号为左上角第一个)
+        Position: 22
+        # 按钮显示物品ID
+        ItemID: 'PAPER'
+        Model: 58
+        # 按钮显示名称
+        Name: §e商城
+        # 按钮显示Lore(每一行用%隔开)
+        Lore: §a点击打开商城
+        HideItem: false
+        # 物品显示附魔
+        Enchantment:
+          # 附魔ID
+          ID: protection
+          # 附魔等级
+          Level: 1
+        # 是否隐藏附魔显示
+        HideEnchant: true
+        # 按下这个按钮的花费
+        Cost:
+          # 花费的类型(Money为金币，PlayerPoints为点券)
+          Type: Money
+          # 花费的价格
+          Price: 0
+        # 按下按钮发给玩家的信息
+        #Message: §a你已打开商城%§c测试
+        # 按钮按下次数(每个玩家都有这么多次数，按下一次即为一次，一旦玩家按下次数超过这个数值则该按钮不再显示)
+        #Frequency: -1
+        # 按下这个按钮的功能(可以都不选，也可以都选)
+        Function:
+          # 打开另一个GUI窗口
+          OpenAnotherGUI:
+            # 是否开启这个功能
+            Use: true
+            # GUI窗口编号(即每一个GUI界面设置的最前面的那个数字)
+            Number: 1
+          # 执行指令(可以是多个指令同时执行)
+          Command:
+            # 是否开启这个功能
+            Use: false
+            # 指令内容(每一个指令用%隔开。变量说明:{player}代表按下这个按钮的玩家,{ignoreOP}为无视权限执行这个指令)
+            Content: /say 钟表菜单%/say hahaha
+      '2':
+        Position: 0
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'BEACON'
+        Name: §6传送至主城
+        Lore: §2点击传送至主城
+        Function:
+          Command:
+            Use: true
+            Content: /spawn
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '3':
+        Position: 1
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'LIME_BED'
+        Name: §6传送至生存区
+        Lore: §2点击传送至生存区
+        Function:
+          Command:
+            Use: true
+            Content: /warp sc
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '4':
+        Position: 2
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'DIAMOND_PICKAXE'
+        Name: §6传送至矿界
+        Lore: §2点击传送至矿界
+        Function:
+          Command:
+            Use: true
+            Content: /warp kj
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '5':
+        Position: 7
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'STICK'
+        Model: 31
+        Name: §6传送至抽奖屋
+        Lore: §2点击传送至抽奖屋
+        Function:
+          Command:
+            Use: true
+            Content: /warp cj
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '6':
+        Position: 3
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'NETHERRACK'
+        Name: §6传送至地狱
+        Lore: §2点击传送至地狱
+        Function:
+          Command:
+            Use: true
+            Content: /warp dy
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '7':
+        Position: 4
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'END_STONE'
+        Name: §6传送至末地
+        Lore: §2点击传送至末地
+        Function:
+          Command:
+            Use: true
+            Content: /warp md
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '8':
+        Position: 6
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'STICK'
+        Model: 29
+        Name: §6传送至主城商店
+        Lore: §2点击传送至主城商店
+        Function:
+          Command:
+            Use: true
+            Content: /warp shop
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+  '1':
+    Name: §5§l赞助商城
+    Item:
+      '1':
+        Position: 2
+        ItemID: 'PAPER'
+        Model: 57
+        Name: §a购买Vip1(31天)
+        Lore: §3特权请查看Vip手册%§5价格:15元%§6点击选择支付方式
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui vip1
+      '2':
+        Position: 4
+        ItemID: 'PAPER'
+        Model: 58
+        Name: §a购买Vip2(31天)
+        Lore: §3特权请查看Vip手册%§5价格:25元%§6点击选择支付方式
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui vip2
+      '3':
+        Position: 6
+        ItemID: 'PAPER'
+        Model: 59
+        Name: §a购买Vip3(31天)
+        Lore: §3特权请查看Vip手册%§5价格:50元%§6点击选择支付方式
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui vip3
+      '11':
+        Position: 12
+        ItemID: 'PAPER'
+        Model: 45
+        Name: §a购买一个钥匙礼包
+        Lore: §7内含6把钥匙%§76种抽奖钥匙各一把%§5价格:12元%§6点击选择支付方式
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui 钥匙礼包
+      '13':
+        Position: 14
+        ItemID: 'PAPER'
+        Model: 45
+        Name: §a购买一个疯狂钥匙礼包
+        Lore: §7内含4把疯狂抽奖钥匙%§5价格:20元%§6点击选择支付方式
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /paygui 疯狂钥匙礼包
+      '12':
+        Position: 31
+        ItemID: 'WRITTEN_BOOK'
+        Name: §a打开VIP手册
+        Lore: §7点击打开VIP手册
+        HideItem: false
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: /ob open VIP手册
+      '10':
+        Position: 10
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§e§l老虎机抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l老虎机抽奖箱%§5价格:300点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 300
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 老虎机 1 {player}
+      '4':
+        Position: 10
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§e§l老虎机抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l老虎机抽奖箱%§5价格:300点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 300
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 老虎机 1 {player}
+      '5':
+        Position: 11
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§e§l快速抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l快速抽奖箱%§5价格:300点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 300
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 快速 1 {player}
+      '6':
+        Position: 12
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§e§l九选一抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l九选一抽奖箱%§5价格:300点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 300
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 九选一 1 {player}
+      '7':
+        Position: 13
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§e§l烟花抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l烟花抽奖箱%§5价格:400点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 400
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 烟花 1 {player}
+      '8':
+        Position: 14
+        ItemID: 'TRIPWIRE_HOOK'
+        Name: §a购买一个§5§l疯狂抽奖箱§3§l的钥匙
+        Lore: §7一把开启抽奖箱的钥匙%§7用它打开§e§l疯狂抽奖箱%§5价格:1000点券%§6点击即可购买
+        HideItem: true
+        Enchantment:
+          ID: fortune
+          Level: 1
+        HideEnchant: true
+        Cost:
+          Type: PlayerPoints
+          Price: 1000
+        Function:
+          Command:
+            Use: true
+            Content: /crazycrate give Physical 疯狂 1 {player}
+      '9':
+        Position: 35
+        ItemID: 'PAPER'
+        Model: 12
+        Name: §a返回主页
+        Lore: §2点击返回主页
+        Cost:
+          Type: Money
+          Price: 0
+        Function:
+          OpenAnotherGUI:
+            Use: true
+            Number: 0
