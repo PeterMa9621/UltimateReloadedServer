@@ -147,19 +147,31 @@ Global:
     TeleportTitleMessage: true
   RandomTeleportation:
     Worlds:
-      world_nether:
+      DIM-5:
         Enabled: true
         MaxCoord: 1000
         MinCoord: 500
         CenterX: 0
         CenterZ: 0
-      world:
+      DIM-1:
         Enabled: true
         MaxCoord: 1000
         MinCoord: 500
         CenterX: 0
         CenterZ: 0
-      world_the_end:
+      DIM-2:
+        Enabled: true
+        MaxCoord: 1000
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      DIM1:
+        Enabled: true
+        MaxCoord: 1000
+        MinCoord: 500
+        CenterX: 0
+        CenterZ: 0
+      DIM-3:
         Enabled: true
         MaxCoord: 1000
         MinCoord: 500
@@ -421,7 +433,7 @@ Global:
     #  droplet, take, mobappearance
 
     # If using spigot based server different particles can be used:
-    # click2, click1, bow_fire, door_toggle, iron_door_toggle, trapdoor_toggle, iron_trapdoor_toggle, fence_gate_toggle, door_close, iron_door_close, trapdoor_close, iron_trapdoor_close, fence_gate_close, extinguish, record_play, ghast_shriek, ghast_shoot, blaze_shoot, zombie_chew_wooden_door, zombie_chew_iron_door, zombie_destroy_door, smoke, step_sound, potion_break, ender_signal, mobspawner_flames, brewing_stand_brew, chorus_flower_grow, chorus_flower_death, portal_travel, endereye_launch, firework_shoot, villager_plant_grow, dragon_breath, anvil_break, anvil_use, anvil_land, enderdragon_shoot, wither_break_block, wither_shoot, zombie_infect, zombie_converted_villager, bat_takeoff, end_gateway_spawn, enderdragon_growl, 
+    # click2, click1, bow_fire, door_toggle, iron_door_toggle, trapdoor_toggle, iron_trapdoor_toggle, fence_gate_toggle, door_close, iron_door_close, trapdoor_close, iron_trapdoor_close, fence_gate_close, extinguish, record_play, ghast_shriek, ghast_shoot, blaze_shoot, zombie_chew_wooden_door, zombie_chew_iron_door, zombie_destroy_door, smoke, step_sound, potion_break, ender_signal, mobspawner_flames, brewing_stand_brew, chorus_flower_grow, chorus_flower_death, portal_travel, endereye_launch, firework_shoot, villager_plant_grow, dragon_breath, anvil_break, anvil_use, anvil_land, enderdragon_shoot, wither_break_block, wither_shoot, zombie_infect, zombie_converted_villager, bat_takeoff, end_gateway_spawn, enderdragon_growl, fireworks_spark, crit, magic_crit, potion_swirl, potion_swirl_transparent, spell, instant_spell, witch_magic, note, portal, flying_glyph, flame, lava_pop, footstep, splash, particle_smoke, explosion_huge, explosion_large, explosion, void_fog, small_smoke, cloud, coloured_dust, snowball_break, waterdrip, lavadrip, snow_shovel, slime, heart, villager_thundercloud, happy_villager, large_smoke, item_break, tile_break, tile_dust, 
     Selected:
       Frame: happyVillager
       Sides: reddust
@@ -452,6 +464,11 @@ Global:
   EnableLeaseMoneyAccount: true
   # By setting this to true, partial compatibility for kCouldron servers will be enabled. Action bar messages and selection visualizer will be disabled automatically as off incorrect compatibility
   Couldroncompatibility: false
+Enabled: true
+MaxCoord: 1000
+MinCoord: 500
+CenterX: 0
+CenterZ: 0
 DynMap:
   # Enables or disable DynMap Support
   Use: false

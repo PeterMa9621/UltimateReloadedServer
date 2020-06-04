@@ -1,4 +1,4 @@
-9952 nodes in total
+9953 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -7718,6 +7718,7 @@ ftbutilities.claims.item.ironchest.vanilla_copper_shulker_upgrade: ALL
 ftbutilities.claims.item.ironchest.vanilla_iron_shulker_upgrade: ALL
 ftbutilities.claims.item.ironchest.wood_copper_chest_upgrade: ALL
 ftbutilities.claims.item.ironchest.wood_iron_chest_upgrade: ALL
+ftbutilities.claims.item.itemblacklist.blacklisted: ALL
 ftbutilities.claims.item.longfallboots.longfallboots: ALL
 ftbutilities.claims.item.magicbees.beecomb: ALL
 ftbutilities.claims.item.magicbees.drop: ALL
@@ -10095,6 +10096,8 @@ command.immersiveengineering.ie.mineral.help.setdepletion
 command.immersiveengineering.ie.mineral.list
 command.immersiveengineering.ie.mineral.set
 command.immersiveengineering.ie.mineral.setdepletion
+command.itemblacklist.blockitem
+command.itemblacklist.unpack
 command.kick
 command.kill
 command.list
