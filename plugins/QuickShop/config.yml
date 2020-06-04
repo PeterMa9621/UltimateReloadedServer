@@ -80,12 +80,12 @@ shop:
     display-items: true
     
     #The plugin will check if the display item is in a valid position every the specified amount of ticks. 0 to disable.
-    display-items-check-ticks: 0
+    display-items-check-ticks: 1200
     
     #When someone uses /qs find <item>, how far should we search in blocks?
     #This command lets users shop quickly without wasting time searching
     #Settings > 100 WILL cause lag. Don't do it, or don't cry when your server lags.
-    find-distance: 45
+    find-distance: 10
 
 #List of items to disallow selling of.  Anyone with quickshop.bypass.<itemID> can bypass it    
 blacklist:
