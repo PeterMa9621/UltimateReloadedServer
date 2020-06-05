@@ -1,10 +1,10 @@
-storage: YAML
+storage: mysql
 mysql:
   host: localhost
   port: 3306
   database: minecraft
-  user: username
-  password: pass
+  user: root
+  password: mjy159357
   table: playerpoints
   import:
     use: false

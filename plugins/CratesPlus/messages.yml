@@ -10,16 +10,15 @@
 # - %prize% - The name of the winning.
 # - %percentage% - Percentage of the winning, useful for "Chance Message".
 
-Prefix: '&7[&bCratesPlus&7]'
-Command No Permission: '&cYou do not have the correct permission to run this command'
-Crate No Permission: '&cYou do not have the correct permission to use this crate'
-Crate Open Without Key: '&cYou must be holding a %crate% &ckey to open this crate'
-Key Given: '&aYou have been given a %crate% &acrate key'
-Broadcast: '&d%displayname% &dopened a %crate% &dcrate'
-Cant Place: '&cYou can not place crate keys'
-Cant Drop: '&cYou can not drop crate keys'
-Chance Message: '&d%percentage%% Chance'
-Inventory Full Claim: '&aYou''re inventory is full, you can claim your keys later
-  using /crate'
-Claim Join: '&aYou currently have keys waiting to be claimed, use /crate to claim'
-Possible Wins Title: 'Possible Wins:'
+Prefix: '&7[&b抽奖系统&7]'
+Command No Permission: '&c你没有权限这么做！'
+Crate No Permission: '&c你没有使用该抽奖箱的权限！'
+Crate Open Without Key: '&c你必须手持一把 %crate% &c钥匙来打开这个抽奖箱'
+Key Given: '&a你获得了一把 %crate% &a抽奖箱钥匙'
+Broadcast: '&d%displayname% &d打开了 %crate% &d抽奖箱'
+Cant Place: '&c你不能放置抽奖钥匙'
+Cant Drop: '&c你不能扔抽奖钥匙'
+Chance Message: '&d概率: %percentage%%'
+Inventory Full Claim: '&a你的背包满了，请稍后使用/crate取回你的抽奖钥匙'
+Claim Join: '&a你有抽奖钥匙等待取回，输入/crate取回钥匙'
+Possible Wins Title: '奖品:'
