@@ -43,10 +43,5 @@ mods.jei.JEI.removeAndHide(<xreliquary:rending_gale>);
 mods.jei.JEI.removeAndHide(<xreliquary:mob_charm>.withTag({type: 0 as byte}));
 mods.jei.JEI.removeAndHide(<xreliquary:mob_charm>.withTag({type: 12 as byte}));
 
-#peripheral plus plus analyzers
-mods.jei.JEI.removeAndHide(<peripheralsplusone:analyzer_bee>);
-mods.jei.JEI.removeAndHide(<peripheralsplusone:analyzer_tree>);
-mods.jei.JEI.removeAndHide(<peripheralsplusone:analyzer_butterfly>);
-
 #AE portable cells
 mods.jei.JEI.removeAndHide(<appliedenergistics2:portable_cell>);

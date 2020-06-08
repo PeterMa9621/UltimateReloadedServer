@@ -15,10 +15,6 @@ recipes.addShaped(<railcraft:locomotive_electric>.withTag({model: "railcraft:def
 recipes.addShaped(<railcraft:locomotive_electric>.withTag({model: "railcraft:default"}), [[<minecraft:redstone_lamp>, <ore:plateSteel>, null],[<railcraft:charge:5>, <railcraft:battery_zinc_carbon>, <railcraft:charge:5>], [<ore:gearSteel>, <minecraft:minecart>, <ore:gearSteel>]]);
 recipes.addShaped(<railcraft:locomotive_electric>.withTag({model: "railcraft:default"}), [[<minecraft:redstone_lamp>, <ore:plateSteel>, null],[<railcraft:charge:5>, <railcraft:battery_nickel_iron>, <railcraft:charge:5>], [<ore:gearSteel>, <minecraft:minecart>, <ore:gearSteel>]]);
 
-#ticket machine
-recipes.remove(<computronics:ticket_machine>);
-recipes.addShaped(<computronics:ticket_machine>, [[<ore:plateTin>, <ore:plateSteel>, <ore:plateTin>],[<ore:plateSteel>, <minecraft:dispenser>, <ore:paneGlassColorless>], [<ore:plateTin>, <minecraft:piston>, <ore:plateTin>]]);
-
 #dyable metal post
 recipes.addShaped(<railcraft:post_metal> * 8, [[<railcraft:post_metal:15>, <railcraft:post_metal:15>, <railcraft:post_metal:15>],[<railcraft:post_metal:15>, <ore:dyeWhite>, <railcraft:post_metal:15>], [<railcraft:post_metal:15>, <railcraft:post_metal:15>, <railcraft:post_metal:15>]]);
 

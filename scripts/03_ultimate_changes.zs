@@ -50,13 +50,5 @@ recipes.addShaped(<microblockcbe:microblock:772>.withTag({mat: "minecraft:iron_b
 #Iron pillar into block of iron post
 recipes.addShaped(<microblockcbe:microblock:770>.withTag({mat: "minecraft:iron_block"}) * 2, [[null, <projectred-exploration:peridot_saw>, null], [null, <microblockcbe:microblock:770>.withTag({mat: "minecraft:iron_block"}), null], [null, null, null]]);
 
-#wired modem recipe conflict
-recipes.remove(<computercraft:cable:1>);
-recipes.addShaped(<computercraft:cable:1>, [[<minecraft:iron_ingot>, <ore:stone>, <minecraft:iron_ingot>],[<ore:stone>, <minecraft:redstone>, <ore:stone>], [<minecraft:iron_ingot>, <ore:stone>, <minecraft:iron_ingot>]]);
-
 #essence of scornful oblivion
 recipes.addShaped(<magicbees:resource:11>, [[<magicbees:resource:8>, <minecraft:skull:1>, <magicbees:resource:9>],[<minecraft:skull:1>, null, <minecraft:skull:1>], [<magicbees:resource:9>, <minecraft:skull:1>, <magicbees:resource:8>]]);
-
-#nano bot swarm
-recipes.remove(<peripheralsplusone:nano_swarm>);
-recipes.addShaped(<peripheralsplusone:nano_swarm>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],[<minecraft:redstone>, <ic2:ingot:7>, <minecraft:redstone>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
