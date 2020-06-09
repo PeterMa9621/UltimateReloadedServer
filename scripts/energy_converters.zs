@@ -22,13 +22,10 @@ recipes.addShaped(<gravisuite:advancedlappack:26>, [[null, <ic2:lappack:26>.anyD
 #EV energy converters
 recipes.remove(<energyconverters:energy_producer_eu:3>);
 recipes.addShapeless(<energyconverters:energy_producer_eu:3>, [<energyconverters:energy_consumer_eu:3>]);
-recipes.addShaped(<energyconverters:energy_producer_eu:3>, [[<ore:stone>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}), <ore:stone>],[<techreborn:adjustable_su>, <ic2:resource:13>, <minecraft:gold_ingot>], [<ore:stone>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}), <ore:stone>]]);
 
 #IV energy converters
 recipes.remove(<energyconverters:energy_producer_eu:4>);
 recipes.addShapeless(<energyconverters:energy_producer_eu:4>, [<energyconverters:energy_consumer_eu:4>]);
-recipes.addShaped(<energyconverters:energy_producer_eu:4>, [[<ore:blockGold>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}).onlyWithTag({type: 3 as byte, insulation: 3 as byte}), <ore:blockGold>],[<techreborn:machine_frame:2>, <techreborn:adjustable_su>, <techreborn:machine_frame:2>], [<ore:blockGold>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}).onlyWithTag({type: 3 as byte, insulation: 3 as byte}), <ore:blockGold>]]);
-
 
 #fix MJ producer recipe
 recipes.remove(<energyconverters:energy_producer_mj>);

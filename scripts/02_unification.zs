@@ -58,7 +58,6 @@ recipes.addShapeless(<thermalfoundation:material:67>, [<ore:dustSmallLead>, <ore
 recipes.addShapeless(<thermalfoundation:material:66>, [<ore:dustSmallSilver>, <ore:dustSmallSilver>, <ore:dustSmallSilver>, <ore:dustSmallSilver>]);
 recipes.addShapeless(<thermalfoundation:material>, [<ore:dustSmallIron>, <ore:dustSmallIron>, <ore:dustSmallIron>, <ore:dustSmallIron>]);
 recipes.addShapeless(<thermalfoundation:material:64>, [<ore:dustSmallCopper>, <ore:dustSmallCopper>, <ore:dustSmallCopper>, <ore:dustSmallCopper>]);
-recipes.addShapeless(<techreborn:dust:59>, [<techreborn:smalldust:59>,<techreborn:smalldust:59>,<techreborn:smalldust:59>,<techreborn:smalldust:59>]);
 
 #remove oreDict from charged certus quartz
 val oreCertusQuartz = <ore:oreCertusQuartz>;

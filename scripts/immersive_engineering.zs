@@ -193,7 +193,6 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:connector:11>);
 
 #kinetic dynamo
 recipes.remove(<immersiveengineering:metal_device1:2>);
-recipes.addShaped(<immersiveengineering:metal_device1:2>, [[<minecraft:iron_ingot>, <projectred-core:resource_item:104>, <minecraft:iron_ingot>],[<projectred-core:resource_item:400>, <projectred-core:resource_item:410>, <projectred-core:resource_item:400>], [<minecraft:iron_ingot>, <projectred-core:resource_item:104>, <minecraft:iron_ingot>]]);
 
 #Wire Coils
 recipes.remove(<immersiveengineering:wirecoil:5>);

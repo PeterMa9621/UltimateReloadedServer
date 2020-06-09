@@ -7,4 +7,3 @@ recipes.addShaped(<powersuits:powerarmorcomponent> * 8, [[<ic2:cable>.withTag({t
 
 #fix ion thruster recipe
 recipes.remove(<powersuits:powerarmorcomponent:4>);
-recipes.addShaped(<powersuits:powerarmorcomponent:4>, [[<ore:plateIridium>, <techreborn:part:17>, <ore:plateIridium>],[<powersuits:powerarmorcomponent:12>, <powersuits:powerarmorcomponent:7>, <powersuits:powerarmorcomponent:12>], [<ic2:iridium_reflector>, null, <ic2:iridium_reflector>]]);

@@ -20,20 +20,11 @@
 <thermalfoundation:ore:5>.addTooltip(format.green("Found in overworld from y5 to y20"));
 <thermalfoundation:ore:4>.addTooltip(format.green("Not found in world, Aluminum can be obtained as a by-product from Tech Reborn Bauxite Ore"));
 //misc
-<techreborn:ore:8>.addTooltip(format.green("Found in overworld from y0 to y10; rare!"));
-<techreborn:ore:10>.addTooltip(format.green("Found in overworld from y16 to y42"));
-<projectred-exploration:ore>.addTooltip(format.green("Found in overworld from y16 to y42"));
-<projectred-exploration:ore:1>.addTooltip(format.green("Found in overworld from y16 to y42"));
-<projectred-exploration:ore:2>.addTooltip(format.green("Found in overworld from y48 to y72"));
-<forestry:resources>.addTooltip(format.green("Found in overworld from y54 to y96"));
 <appliedenergistics2:quartz_ore>.addTooltip(format.green("Found in overworld from y24 to y48"));
-<projectred-exploration:ore:6>.addTooltip(format.green("Found in overworld from y0 to y16"));
 <ic2:resource:4>.addTooltip(format.green("Found in overworld from y16 to y42"));
 <modularforcefieldsystem:monazit_ore>.addTooltip(format.green("Found in overworld from y20 to y60"));
-<techreborn:ore>.addTooltip(format.green("Found in overworld from y12 to y32"));
 <thaumcraft:ore_cinnabar>.addTooltip(format.green("Found in overworld from y20 to y65"));
 <thaumcraft:ore_amber>.addTooltip(format.green("Found in overworld from y20 to y65"));
-<techreborn:ore:4>.addTooltip(format.green("Found in overworld from y48 to y65"));
 
 #retro exchange items
 <retroexchange:transmutation_shard>.addTooltip(format.green("Rare drop from mobs."));

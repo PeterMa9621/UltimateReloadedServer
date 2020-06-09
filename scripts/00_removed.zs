@@ -2,7 +2,6 @@
 #Author: Feed the Beast
 
 #chunk loaders
-mods.jei.JEI.removeAndHide(<techreborn:chunk_loader>);
 mods.jei.JEI.removeAndHide(<ic2:te:82>);
 
 #defense station
@@ -34,7 +33,6 @@ mods.jei.JEI.removeAndHide(<ae2stuff:wireless_kit>);
 mods.jei.JEI.removeAndHide(<ae2stuff:visualiser>);
 
 #IF hydrator due to crashes
-mods.jei.JEI.removeAndHide(<industrialforegoing:hydrator>);
 
 #rending gale
 mods.jei.JEI.removeAndHide(<xreliquary:rending_gale>);

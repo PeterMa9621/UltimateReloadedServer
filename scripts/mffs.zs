@@ -22,7 +22,6 @@ recipes.addShaped(<modularforcefieldsystem:module_sphere>, [[null, <minecraft:ir
 
 #camoflage projector option
 recipes.remove(<modularforcefieldsystem:option_camoflage>);
-recipes.addShaped(<modularforcefieldsystem:option_camoflage>, [[null, <ore:plateAdvancedAlloy>, null],[<ore:plateAdvancedAlloy>, <techreborn:part>, <ore:plateAdvancedAlloy>], [null, <ore:plateAdvancedAlloy>, null]]);
 
 #force power crystal
 recipes.addShaped(<modularforcefieldsystem:forcepower_crystal:101>.withTag({ForceEnergy: 0}), [[<modularforcefieldsystem:forcicium>, <modularforcefieldsystem:forcicium>, <modularforcefieldsystem:forcicium>],[<modularforcefieldsystem:forcicium>, <minecraft:diamond>, <modularforcefieldsystem:forcicium>], [<modularforcefieldsystem:forcicium>, <modularforcefieldsystem:forcicium>, <modularforcefieldsystem:forcicium>]]);
