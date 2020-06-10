@@ -414,6 +414,7 @@ Language:
       &6Description:
       %1
     DescChange: '&6Description changed to: %1'
+    ChantChange: '&4Can''t change while shop flag is set to true'
     NewBoard: '&6Successfully added new shop sign board'
     BoardExist: '&cShop board already exists in this location'
     DeleteBoard: '&6Right click sign of board you want to delete'
