@@ -39,7 +39,21 @@ recipes.remove(<ic2:iridium_reflector>);
 recipes.addShaped(<ic2:iridium_reflector>, [[<ic2:thick_neutron_reflector>, <ic2:thick_neutron_reflector>, <ic2:thick_neutron_reflector>],[<ic2:thick_neutron_reflector>, <ore:plateiridiumAlloy>, <ic2:thick_neutron_reflector>], [<ic2:thick_neutron_reflector>, <ic2:thick_neutron_reflector>, <ic2:thick_neutron_reflector>]]);
 
 #remove nano saber in favor of TR
-mods.jei.JEI.removeAndHide(<ic2:nano_saber:*>);
+#mods.jei.JEI.removeAndHide(<ic2:nano_saber:*>);
+recipes.remove(<ic2:nano_saber:*>);
+recipes.addShaped(<ic2:nano_saber>, [[<ic2:crafting:4>,<ic2:crafting:4>,null],[<ic2:crafting:4>,<ic2:crafting:4>,null], [<ic2:lapotron_crystal:*>, <appliedenergistics2:material:34>, <ic2:lapotron_crystal:*>]]);
+
+#change recipe of quantum_boots
+recipes.remove(<ic2:quantum_boots:*>);
+recipes.addShaped(<ic2:quantum_boots>, [[null,null,null],[<ic2:crafting:4>,<ic2:nano_boots:*>,<ic2:crafting:4>], [<ic2:crafting:4>, <ic2:lapotron_crystal:*>, <ic2:crafting:4>]]);
+
+#change recipe of quantum_helmet
+recipes.remove(<ic2:quantum_helmet:*>);
+recipes.addShaped(<ic2:quantum_helmet>, [[<ic2:glass:0>,<ic2:nano_helmet:*>,<ic2:glass:0>],[<ic2:crafting:4>,<ic2:lapotron_crystal:*>,<ic2:crafting:4>], [<ic2:crafting:2>, <ic2:crafting:4>, <ic2:crafting:2>]]);
+
+#change recipe of quantum_leggings
+recipes.remove(<ic2:quantum_leggings:*>);
+recipes.addShaped(<ic2:quantum_leggings>, [[<ic2:resource:12>,<ic2:lapotron_crystal:*>,<ic2:resource:12>],[<ic2:crafting:4>,<ic2:nano_leggings:*>,<ic2:crafting:4>], [<ic2:crafting:4>, null, <ic2:crafting:4>]]);
 
 #adjust tin can recipe output
 recipes.remove(<ic2:crafting:10>);

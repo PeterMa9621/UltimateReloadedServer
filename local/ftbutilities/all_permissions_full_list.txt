@@ -9315,6 +9315,8 @@ command.immersiveengineering.ie.mineral.help.setdepletion
 command.immersiveengineering.ie.mineral.list
 command.immersiveengineering.ie.mineral.set
 command.immersiveengineering.ie.mineral.setdepletion
+command.infernalmobs.feclass
+command.infernalmobs.spawninfernal
 command.itemblacklist.blockitem
 command.itemblacklist.unpack
 command.kick

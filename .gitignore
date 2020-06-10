@@ -148,3 +148,7 @@ crash-reports/
 
 Illegal_Clients/
 plugins/Residence/config.yml
+
+orebfuscator_cache/
+
+config/infernalmobs.cfg
