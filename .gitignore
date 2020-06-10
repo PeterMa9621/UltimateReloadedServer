@@ -145,3 +145,6 @@ backups/
 local/ftbutilities/backups.json
 
 crash-reports/
+
+Illegal_Clients/
+plugins/Residence/config.yml

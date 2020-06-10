@@ -1,4 +1,4 @@
-9052 nodes in total
+9172 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -105,6 +105,12 @@ ftbutilities.claims.block.edit.appliedenergistics2.wireless_access_point: OP
 ftbutilities.claims.block.edit.aroma1997sdimension.miningore: OP
 ftbutilities.claims.block.edit.aroma1997sdimension.miningportal: OP
 ftbutilities.claims.block.edit.aroma1997sdimension.portalframe: OP
+ftbutilities.claims.block.edit.avaritia.block_resource: OP
+ftbutilities.claims.block.edit.avaritia.compressed_crafting_table: OP
+ftbutilities.claims.block.edit.avaritia.double_compressed_crafting_table: OP
+ftbutilities.claims.block.edit.avaritia.extreme_crafting_table: OP
+ftbutilities.claims.block.edit.avaritia.neutron_collector: OP
+ftbutilities.claims.block.edit.avaritia.neutronium_compressor: OP
 ftbutilities.claims.block.edit.bibliocraft.armorstand: OP
 ftbutilities.claims.block.edit.bibliocraft.bell: OP
 ftbutilities.claims.block.edit.bibliocraft.bookcase: OP
@@ -494,6 +500,16 @@ ftbutilities.claims.block.edit.compactsolars.compact_solar_block: OP
 ftbutilities.claims.block.edit.conarm.armorforge: OP
 ftbutilities.claims.block.edit.conarm.armorstation: OP
 ftbutilities.claims.block.edit.conarm.soft_obsidian: OP
+ftbutilities.claims.block.edit.cyberware.beacon: OP
+ftbutilities.claims.block.edit.cyberware.beacon_large: OP
+ftbutilities.claims.block.edit.cyberware.blueprint_archive: OP
+ftbutilities.claims.block.edit.cyberware.charger: OP
+ftbutilities.claims.block.edit.cyberware.component_box: OP
+ftbutilities.claims.block.edit.cyberware.engineering_table: OP
+ftbutilities.claims.block.edit.cyberware.radio_post: OP
+ftbutilities.claims.block.edit.cyberware.scanner: OP
+ftbutilities.claims.block.edit.cyberware.surgery: OP
+ftbutilities.claims.block.edit.cyberware.surgery_chamber: OP
 ftbutilities.claims.block.edit.enderstorage.ender_storage: OP
 ftbutilities.claims.block.edit.energyconverters.energy_bridge: OP
 ftbutilities.claims.block.edit.energyconverters.energy_consumer_eu: OP
@@ -1820,6 +1836,7 @@ ftbutilities.claims.block.edit.plustic.alumiteblock: OP
 ftbutilities.claims.block.edit.plustic.centrifuge: OP
 ftbutilities.claims.block.edit.plustic.invarblock: OP
 ftbutilities.claims.block.edit.plustic.plustic.molten_alumite: OP
+ftbutilities.claims.block.edit.plustic.plustic.molten_infinity: OP
 ftbutilities.claims.block.edit.plustic.plustic.molten_thaumium: OP
 ftbutilities.claims.block.edit.portalgun.block_portal: OP
 ftbutilities.claims.block.edit.powersuits.liquid_nitrogen: OP
@@ -1903,6 +1920,9 @@ ftbutilities.claims.block.edit.railcraft.wire: OP
 ftbutilities.claims.block.edit.railcraft.worldlogic: OP
 ftbutilities.claims.block.edit.railcraft.worldspike: OP
 ftbutilities.claims.block.edit.railcraft.worldspike_point: OP
+ftbutilities.claims.block.edit.rewired.canopic_jar: OP
+ftbutilities.claims.block.edit.rewired.charger_eu: OP
+ftbutilities.claims.block.edit.rewired.ecglass: OP
 ftbutilities.claims.block.edit.simplecorn.corn: OP
 ftbutilities.claims.block.edit.simplecorn.corn_mid: OP
 ftbutilities.claims.block.edit.simplecorn.corn_top: OP
@@ -2601,6 +2621,12 @@ ftbutilities.claims.block.interact.appliedenergistics2.wireless_access_point: OP
 ftbutilities.claims.block.interact.aroma1997sdimension.miningore: OP
 ftbutilities.claims.block.interact.aroma1997sdimension.miningportal: OP
 ftbutilities.claims.block.interact.aroma1997sdimension.portalframe: OP
+ftbutilities.claims.block.interact.avaritia.block_resource: OP
+ftbutilities.claims.block.interact.avaritia.compressed_crafting_table: OP
+ftbutilities.claims.block.interact.avaritia.double_compressed_crafting_table: OP
+ftbutilities.claims.block.interact.avaritia.extreme_crafting_table: OP
+ftbutilities.claims.block.interact.avaritia.neutron_collector: OP
+ftbutilities.claims.block.interact.avaritia.neutronium_compressor: OP
 ftbutilities.claims.block.interact.bibliocraft.armorstand: OP
 ftbutilities.claims.block.interact.bibliocraft.bell: OP
 ftbutilities.claims.block.interact.bibliocraft.bookcase: OP
@@ -2990,6 +3016,16 @@ ftbutilities.claims.block.interact.compactsolars.compact_solar_block: OP
 ftbutilities.claims.block.interact.conarm.armorforge: OP
 ftbutilities.claims.block.interact.conarm.armorstation: OP
 ftbutilities.claims.block.interact.conarm.soft_obsidian: OP
+ftbutilities.claims.block.interact.cyberware.beacon: OP
+ftbutilities.claims.block.interact.cyberware.beacon_large: OP
+ftbutilities.claims.block.interact.cyberware.blueprint_archive: OP
+ftbutilities.claims.block.interact.cyberware.charger: OP
+ftbutilities.claims.block.interact.cyberware.component_box: OP
+ftbutilities.claims.block.interact.cyberware.engineering_table: OP
+ftbutilities.claims.block.interact.cyberware.radio_post: OP
+ftbutilities.claims.block.interact.cyberware.scanner: OP
+ftbutilities.claims.block.interact.cyberware.surgery: OP
+ftbutilities.claims.block.interact.cyberware.surgery_chamber: OP
 ftbutilities.claims.block.interact.enderstorage.ender_storage: OP
 ftbutilities.claims.block.interact.energyconverters.energy_bridge: OP
 ftbutilities.claims.block.interact.energyconverters.energy_consumer_eu: OP
@@ -4316,6 +4352,7 @@ ftbutilities.claims.block.interact.plustic.alumiteblock: OP
 ftbutilities.claims.block.interact.plustic.centrifuge: OP
 ftbutilities.claims.block.interact.plustic.invarblock: OP
 ftbutilities.claims.block.interact.plustic.plustic.molten_alumite: OP
+ftbutilities.claims.block.interact.plustic.plustic.molten_infinity: OP
 ftbutilities.claims.block.interact.plustic.plustic.molten_thaumium: OP
 ftbutilities.claims.block.interact.portalgun.block_portal: OP
 ftbutilities.claims.block.interact.powersuits.liquid_nitrogen: OP
@@ -4399,6 +4436,9 @@ ftbutilities.claims.block.interact.railcraft.wire: OP
 ftbutilities.claims.block.interact.railcraft.worldlogic: OP
 ftbutilities.claims.block.interact.railcraft.worldspike: OP
 ftbutilities.claims.block.interact.railcraft.worldspike_point: OP
+ftbutilities.claims.block.interact.rewired.canopic_jar: OP
+ftbutilities.claims.block.interact.rewired.charger_eu: OP
+ftbutilities.claims.block.interact.rewired.ecglass: OP
 ftbutilities.claims.block.interact.simplecorn.corn: OP
 ftbutilities.claims.block.interact.simplecorn.corn_mid: OP
 ftbutilities.claims.block.interact.simplecorn.corn_top: OP
@@ -5142,6 +5182,29 @@ ftbutilities.claims.item.aroma1997sdimension.dimensionchanger: ALL
 ftbutilities.claims.item.aroma1997sdimension.miningmultitool: ALL
 ftbutilities.claims.item.aroma1997sdimension.miningore: ALL
 ftbutilities.claims.item.aroma1997sdimension.portalframe: ALL
+ftbutilities.claims.item.avaritia.block_resource: ALL
+ftbutilities.claims.item.avaritia.compressed_crafting_table: ALL
+ftbutilities.claims.item.avaritia.cosmic_meatballs: ALL
+ftbutilities.claims.item.avaritia.double_compressed_crafting_table: ALL
+ftbutilities.claims.item.avaritia.endest_pearl: ALL
+ftbutilities.claims.item.avaritia.extreme_crafting_table: ALL
+ftbutilities.claims.item.avaritia.infinity_axe: ALL
+ftbutilities.claims.item.avaritia.infinity_boots: ALL
+ftbutilities.claims.item.avaritia.infinity_bow: ALL
+ftbutilities.claims.item.avaritia.infinity_chestplate: ALL
+ftbutilities.claims.item.avaritia.infinity_helmet: ALL
+ftbutilities.claims.item.avaritia.infinity_hoe: ALL
+ftbutilities.claims.item.avaritia.infinity_pants: ALL
+ftbutilities.claims.item.avaritia.infinity_pickaxe: ALL
+ftbutilities.claims.item.avaritia.infinity_shovel: ALL
+ftbutilities.claims.item.avaritia.infinity_sword: ALL
+ftbutilities.claims.item.avaritia.matter_cluster: ALL
+ftbutilities.claims.item.avaritia.neutron_collector: ALL
+ftbutilities.claims.item.avaritia.neutronium_compressor: ALL
+ftbutilities.claims.item.avaritia.resource: ALL
+ftbutilities.claims.item.avaritia.singularity: ALL
+ftbutilities.claims.item.avaritia.skullfire_sword: ALL
+ftbutilities.claims.item.avaritia.ultimate_stew: ALL
 ftbutilities.claims.item.baubles.ring: ALL
 ftbutilities.claims.item.bibliocraft.armorstand: ALL
 ftbutilities.claims.item.bibliocraft.atlasbook: ALL
@@ -5665,6 +5728,44 @@ ftbutilities.claims.item.conarm.travel_sack: ALL
 ftbutilities.claims.item.conarm.travel_slowfall: ALL
 ftbutilities.claims.item.conarm.travel_sneak: ALL
 ftbutilities.claims.item.conarm.travel_soul: ALL
+ftbutilities.claims.item.cyberware.arm_upgrades: ALL
+ftbutilities.claims.item.cyberware.beacon: ALL
+ftbutilities.claims.item.cyberware.beacon_large: ALL
+ftbutilities.claims.item.cyberware.blueprint: ALL
+ftbutilities.claims.item.cyberware.blueprint_archive: ALL
+ftbutilities.claims.item.cyberware.body_part: ALL
+ftbutilities.claims.item.cyberware.bone_upgrades: ALL
+ftbutilities.claims.item.cyberware.brain_upgrades: ALL
+ftbutilities.claims.item.cyberware.charger: ALL
+ftbutilities.claims.item.cyberware.component: ALL
+ftbutilities.claims.item.cyberware.component_box: ALL
+ftbutilities.claims.item.cyberware.creative_battery: ALL
+ftbutilities.claims.item.cyberware.cybereye_upgrades: ALL
+ftbutilities.claims.item.cyberware.cybereyes: ALL
+ftbutilities.claims.item.cyberware.cyberheart: ALL
+ftbutilities.claims.item.cyberware.cyberlimbs: ALL
+ftbutilities.claims.item.cyberware.dense_battery: ALL
+ftbutilities.claims.item.cyberware.engineering_table: ALL
+ftbutilities.claims.item.cyberware.exp_capsule: ALL
+ftbutilities.claims.item.cyberware.eye_upgrades: ALL
+ftbutilities.claims.item.cyberware.foot_upgrades: ALL
+ftbutilities.claims.item.cyberware.hand_upgrades: ALL
+ftbutilities.claims.item.cyberware.heart_upgrades: ALL
+ftbutilities.claims.item.cyberware.jacket: ALL
+ftbutilities.claims.item.cyberware.katana: ALL
+ftbutilities.claims.item.cyberware.leg_upgrades: ALL
+ftbutilities.claims.item.cyberware.lower_organs_upgrades: ALL
+ftbutilities.claims.item.cyberware.lungs_upgrades: ALL
+ftbutilities.claims.item.cyberware.muscle_upgrades: ALL
+ftbutilities.claims.item.cyberware.neuropozyne: ALL
+ftbutilities.claims.item.cyberware.radio_post: ALL
+ftbutilities.claims.item.cyberware.scanner: ALL
+ftbutilities.claims.item.cyberware.shades2: ALL
+ftbutilities.claims.item.cyberware.shades: ALL
+ftbutilities.claims.item.cyberware.skin_upgrades: ALL
+ftbutilities.claims.item.cyberware.surgery: ALL
+ftbutilities.claims.item.cyberware.surgery_chamber: ALL
+ftbutilities.claims.item.cyberware.trenchcoat: ALL
 ftbutilities.claims.item.enderstorage.ender_pouch: ALL
 ftbutilities.claims.item.enderstorage.ender_storage: ALL
 ftbutilities.claims.item.energyconverters.energy_bridge: ALL
@@ -7636,6 +7737,7 @@ ftbutilities.claims.item.plustic.laser_gun: ALL
 ftbutilities.claims.item.plustic.laser_medium: ALL
 ftbutilities.claims.item.plustic.pipe_piece: ALL
 ftbutilities.claims.item.plustic.plustic.molten_alumite: ALL
+ftbutilities.claims.item.plustic.plustic.molten_infinity: ALL
 ftbutilities.claims.item.plustic.plustic.molten_thaumium: ALL
 ftbutilities.claims.item.portalgun.item_dust_ender_pearl: ALL
 ftbutilities.claims.item.portalgun.item_miniature_black_hole: ALL
@@ -7825,6 +7927,24 @@ ftbutilities.claims.item.railcraft.worldspike: ALL
 ftbutilities.claims.item.railcraft.worldspike_point: ALL
 ftbutilities.claims.item.retroexchange.transmutation_shard: ALL
 ftbutilities.claims.item.retroexchange.transmutation_stone: ALL
+ftbutilities.claims.item.rewired.canopic_jar: ALL
+ftbutilities.claims.item.rewired.charger_eu: ALL
+ftbutilities.claims.item.rewired.cranium: ALL
+ftbutilities.claims.item.rewired.ecglass: ALL
+ftbutilities.claims.item.rewired.energydrink: ALL
+ftbutilities.claims.item.rewired.foot: ALL
+ftbutilities.claims.item.rewired.hand: ALL
+ftbutilities.claims.item.rewired.meat_cooked: ALL
+ftbutilities.claims.item.rewired.meat_raw: ALL
+ftbutilities.claims.item.rewired.necrolimb: ALL
+ftbutilities.claims.item.rewired.powerbar: ALL
+ftbutilities.claims.item.rewired.shield.carbon: ALL
+ftbutilities.claims.item.rewired.shield.plasteel: ALL
+ftbutilities.claims.item.rewired.shield.polymer: ALL
+ftbutilities.claims.item.rewired.skin: ALL
+ftbutilities.claims.item.rewired.stub: ALL
+ftbutilities.claims.item.rewired.torso: ALL
+ftbutilities.claims.item.rewired.visor: ALL
 ftbutilities.claims.item.simplecorn.chickencornchowder: ALL
 ftbutilities.claims.item.simplecorn.corn: ALL
 ftbutilities.claims.item.simplecorn.cornchowder: ALL
@@ -9082,6 +9202,7 @@ command.cofhworld.cofhworld.version
 command.crafttweaker.crafttweaker
 command.customstartinggear.csg_config
 command.customstartinggear.csg_kit
+command.cyberware.clearcyberware
 command.debug
 command.defaultgamemode
 command.deop
