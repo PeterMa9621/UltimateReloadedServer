@@ -1,7 +1,7 @@
 ConfigVersion: 13
 Booleans:
   UseCache: true
-  Enabled: true
+  Enabled: false
   UpdateOnDamage: true
   NoObfuscationForMetadata: true
   NoObfuscationForOps: false
