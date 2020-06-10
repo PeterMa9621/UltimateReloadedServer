@@ -139,3 +139,9 @@ plugins/QuickShop/shops.db
 config/brandon3055/CSG/Config.json
 
 config/IC2.ini
+
+backups/
+
+local/ftbutilities/backups.json
+
+crash-reports/
