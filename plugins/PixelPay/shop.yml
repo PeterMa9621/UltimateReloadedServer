@@ -1,19 +1,22 @@
 #礼包名请不要超过10个字符
-测试小礼包:
+1000点券:
 #礼包名
   money: 10
   #售价（元）
   commands:
-    - 'minecraft:give {0} diamond 64'
-    - 'say {0}买了测试礼包'
+    - 'p give {0} 1000'
   #出售后执行的命令
   #注: 上方指令支持PlaceholderAPI变量
-  desc: '这是一个示范礼包'
+  desc: '购买1000点券'
   #显示在网页上的礼包信息
-测试大礼包:
-  money: 20
+3000点券:
+  money: 30
   commands:
-    - 'minecraft:give {0} diamond 64'
-    - 'minecraft:give {0} diamond 64'
-    - 'say {0}买了测试礼包'
-  desc: '这是一个示范礼包，你可以在这里添加更多描述'
+    - 'p give {0} 3000'
+  desc: '购买3000点券'
+  
+5000点券:
+  money: 50
+  commands:
+    - 'p give {0} 5000'
+  desc: '购买5000点券'
