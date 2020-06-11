@@ -15,6 +15,9 @@
 #mods.jei.JEI.removeAndHide(<ic2:advanced_batpack:26>);
 #mods.jei.JEI.removeAndHide(<ic2:energy_pack:26>);
 
+#remove mining laser
+mods.jei.JEI.removeAndHide(<ic2:mining_laser:*>);
+
 #remove drills and chainsaws in favor of TR
 #mods.jei.JEI.removeAndHide(<gravisuite:advanceddrill:*>);
 #mods.jei.JEI.removeAndHide(<ic2:diamond_drill:*>);
