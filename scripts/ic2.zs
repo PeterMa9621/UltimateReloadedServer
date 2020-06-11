@@ -18,6 +18,11 @@
 #remove mining laser
 mods.jei.JEI.removeAndHide(<ic2:mining_laser:*>);
 
+#remove TNTs
+mods.jei.JEI.removeAndHide(<ic2:te:1>);
+mods.jei.JEI.removeAndHide(<ic2:te:2>);
+
+
 #remove drills and chainsaws in favor of TR
 #mods.jei.JEI.removeAndHide(<gravisuite:advanceddrill:*>);
 #mods.jei.JEI.removeAndHide(<ic2:diamond_drill:*>);
