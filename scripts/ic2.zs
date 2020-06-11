@@ -24,7 +24,7 @@ mods.jei.JEI.removeAndHide(<ic2:chainsaw:*>);
 mods.jei.JEI.removeAndHide(<gravisuite:advancedchainsaw:*>);
 
 #remove Iridium Reinforced Plate recipe and force through inmpolosion compressor
-recipes.remove(<ic2:crafting:4>);
+#recipes.remove(<ic2:crafting:4>);
 
 #crushed ore smelting
 furnace.addRecipe(<thermalfoundation:material:128>, <ic2:crushed>, 0.0);
