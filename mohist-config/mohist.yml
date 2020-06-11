@@ -92,7 +92,7 @@ mohist:
   check_update_auto_download: false
   realtimeticking: false
 eventCanceled:
-  explosion: false
+  explosion: true
 consolecolor:
   info-time: b
   trace-level: c
