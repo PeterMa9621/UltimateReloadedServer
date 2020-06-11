@@ -14,7 +14,7 @@ recipes.remove(<powersuits:tinkertable>);
 recipes.addShaped(<powersuits:tinkertable>, [[null, <minecraft:emerald>, null],[<ore:ingotSteel>, <ore:machineBlockAdvanced>, <ore:ingotSteel>], [null, <ic2:crafting:2>, null]]);
 
 #move sunnarium out of molecular transformer
-mods.jei.JEI.removeAndHide(<advanced_solar_panels:machines>);
+#mods.jei.JEI.removeAndHide(<advanced_solar_panels:machines>);
 recipes.remove(<advanced_solar_panels:crafting:1>);
 recipes.remove(<advanced_solar_panels:crafting>);
 recipes.addShaped(<advanced_solar_panels:crafting:1>, [[null, <ic2:misc_resource:3>, null],[null, <minecraft:glowstone_dust>, null], [null, <ic2:misc_resource:3>, null]]);
