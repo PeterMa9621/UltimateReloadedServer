@@ -152,3 +152,5 @@ plugins/Residence/config.yml
 orebfuscator_cache/
 
 config/infernalmobs.cfg
+
+plugins/RedProtect/data/
