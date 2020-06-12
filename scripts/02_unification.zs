@@ -9,9 +9,6 @@ mods.unidict.removalByKind.get("Crafting").remove("plate");
 mods.unidict.removalByKind.get("Crafting").remove("gear");
 #duplicate gears
 mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
-mods.jei.JEI.removeAndHide(<buildcraftcore:gear_wood>);
-mods.jei.JEI.removeAndHide(<buildcraftcore:gear_stone>);
-mods.jei.JEI.removeAndHide(<buildcraftcore:gear_diamond>);
 #not used gears
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:295>);
 mods.jei.JEI.removeAndHide(<thermalfoundation:material:262>);

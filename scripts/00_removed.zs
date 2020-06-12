@@ -21,9 +21,6 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<railcraft:fuel_coke>, <ther
 #dim changer
 mods.jei.JEI.removeAndHide(<aroma1997sdimension:dimensionchanger>);
 
-#BC pump
-recipes.remove(<buildcraftfactory:pump>);
-
 #double stone slab from Adv Solar due to duping
 mods.jei.JEI.removeAndHide(<advanced_solar_panels:double_stone_slab>);
 

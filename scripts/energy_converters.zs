@@ -27,11 +27,6 @@ recipes.addShapeless(<energyconverters:energy_producer_eu:3>, [<energyconverters
 recipes.remove(<energyconverters:energy_producer_eu:4>);
 recipes.addShapeless(<energyconverters:energy_producer_eu:4>, [<energyconverters:energy_consumer_eu:4>]);
 
-#fix MJ producer recipe
-recipes.remove(<energyconverters:energy_producer_mj>);
-recipes.addShapeless(<energyconverters:energy_producer_mj>, [<energyconverters:energy_consumer_mj>]);
-recipes.addShaped(<energyconverters:energy_producer_mj>, [[<ore:stone>, <ore:gearIron>, <ore:stone>],[<buildcraftcore:engine:1>, <buildcrafttransport:pipe_wood_item>, <minecraft:gold_ingot>], [<ore:stone>, <ore:gearIron>, <ore:stone>]]);
-
 #FE energy converters
 mods.jei.JEI.removeAndHide(<energyconverters:energy_consumer_fe>);
 mods.jei.JEI.removeAndHide(<energyconverters:energy_producer_fe>);

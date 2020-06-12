@@ -29,6 +29,3 @@
 #retro exchange items
 <retroexchange:transmutation_shard>.addTooltip(format.green("稀有的怪物掉落物."));
 <retroexchange:transmutation_stone>.addTooltip(format.green("可以用这个在工作台中转换物品."));
-
-#bc pump
-<buildcraftfactory:pump>.addTooltip(format.red("因为性能原因被禁用."));
