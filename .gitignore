@@ -154,3 +154,5 @@ orebfuscator_cache/
 config/infernalmobs.cfg
 
 plugins/RedProtect/data/
+
+libraries/red/mohist/mappings/nms.srg
