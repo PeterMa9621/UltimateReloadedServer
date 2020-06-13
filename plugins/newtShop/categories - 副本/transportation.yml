@@ -1,0 +1,116 @@
+name: '&9Transportation'
+id: 'transport'
+display-item:
+  display-type: ITEM
+  material: POWERED_RAIL
+slot: 21
+sort-type: FILL
+items:
+  POWERED_RAIL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POWERED_RAIL
+  DETECTOR_RAIL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DETECTOR_RAIL
+  RAIL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RAIL
+  ACTIVATOR_RAIL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACTIVATOR_RAIL
+  MINECART:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MINECART
+  SADDLE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SADDLE
+  OAK_BOAT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_BOAT
+  CHEST_MINECART:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHEST_MINECART
+  FURNACE_MINECART:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FURNACE_MINECART
+  CARROT_ON_A_STICK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CARROT_ON_A_STICK
+  TNT_MINECART:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TNT_MINECART
+  HOPPER_MINECART:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: HOPPER_MINECART
+  ELYTRA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ELYTRA
+  SPRUCE_BOAT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_BOAT
+  BIRCH_BOAT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_BOAT
+  JUNGLE_BOAT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_BOAT
+  ACACIA_BOAT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_BOAT
+  DARK_OAK_BOAT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_BOAT

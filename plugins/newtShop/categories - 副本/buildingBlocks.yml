@@ -1,0 +1,1622 @@
+name: '&9Building Blocks'
+id: 'blocks'
+display-item:
+  display-type: ITEM
+  material: BRICKS
+slot: 12
+sort-type: FILL
+items:
+  STONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE
+  GRANITE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRANITE
+  POLISHED_GRANITE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POLISHED_GRANITE
+  DIORITE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIORITE
+  POLISHED_DIORITE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POLISHED_DIORITE
+  ANDESITE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ANDESITE
+  POLISHED_ANDESITE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POLISHED_ANDESITE
+  GRASS_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRASS_BLOCK
+  DIRT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIRT
+  COARSE_DIRT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COARSE_DIRT
+  PODZOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PODZOL
+  COBBLESTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COBBLESTONE
+  OAK_PLANKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_PLANKS
+  SPRUCE_PLANKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_PLANKS
+  BIRCH_PLANKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_PLANKS
+  JUNGLE_PLANKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_PLANKS
+  ACACIA_PLANKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_PLANKS
+  DARK_OAK_PLANKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_PLANKS
+  BEDROCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BEDROCK
+  SAND:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SAND
+  RED_SAND:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_SAND
+  GRAVEL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRAVEL
+  GOLD_ORE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLD_ORE
+  IRON_ORE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_ORE
+  COAL_ORE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COAL_ORE
+  OAK_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_LOG
+  SPRUCE_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_LOG
+  BIRCH_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_LOG
+  JUNGLE_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_LOG
+  ACACIA_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_LOG
+  DARK_OAK_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_LOG
+  STRIPPED_OAK_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_OAK_LOG
+  STRIPPED_SPRUCE_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_SPRUCE_LOG
+  STRIPPED_BIRCH_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_BIRCH_LOG
+  STRIPPED_JUNGLE_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_JUNGLE_LOG
+  STRIPPED_ACACIA_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_ACACIA_LOG
+  STRIPPED_DARK_OAK_LOG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_DARK_OAK_LOG
+  STRIPPED_OAK_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_OAK_WOOD
+  STRIPPED_SPRUCE_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_SPRUCE_WOOD
+  STRIPPED_BIRCH_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_BIRCH_WOOD
+  STRIPPED_JUNGLE_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_JUNGLE_WOOD
+  STRIPPED_ACACIA_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_ACACIA_WOOD
+  STRIPPED_DARK_OAK_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRIPPED_DARK_OAK_WOOD
+  OAK_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_WOOD
+  SPRUCE_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_WOOD
+  BIRCH_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_WOOD
+  JUNGLE_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_WOOD
+  ACACIA_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_WOOD
+  DARK_OAK_WOOD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_WOOD
+  SPONGE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPONGE
+  WET_SPONGE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WET_SPONGE
+  GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GLASS
+  LAPIS_ORE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LAPIS_ORE
+  LAPIS_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LAPIS_BLOCK
+  SANDSTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SANDSTONE
+  CHISELED_SANDSTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHISELED_SANDSTONE
+  CUT_SANDSTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CUT_SANDSTONE
+  WHITE_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WHITE_WOOL
+  ORANGE_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ORANGE_WOOL
+  MAGENTA_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MAGENTA_WOOL
+  LIGHT_BLUE_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_BLUE_WOOL
+  YELLOW_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: YELLOW_WOOL
+  LIME_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIME_WOOL
+  PINK_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PINK_WOOL
+  GRAY_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRAY_WOOL
+  LIGHT_GRAY_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_GRAY_WOOL
+  CYAN_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CYAN_WOOL
+  PURPLE_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PURPLE_WOOL
+  BLUE_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLUE_WOOL
+  BROWN_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BROWN_WOOL
+  GREEN_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GREEN_WOOL
+  RED_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_WOOL
+  BLACK_WOOL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLACK_WOOL
+  GOLD_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLD_BLOCK
+  IRON_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_BLOCK
+  OAK_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_SLAB
+  SPRUCE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_SLAB
+  BIRCH_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_SLAB
+  JUNGLE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_SLAB
+  ACACIA_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_SLAB
+  DARK_OAK_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_SLAB
+  STONE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_SLAB
+  SMOOTH_STONE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_STONE_SLAB
+  SANDSTONE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SANDSTONE_SLAB
+  CUT_SANDSTONE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CUT_SANDSTONE_SLAB
+  PETRIFIED_OAK_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PETRIFIED_OAK_SLAB
+  COBBLESTONE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COBBLESTONE_SLAB
+  BRICK_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BRICK_SLAB
+  STONE_BRICK_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_BRICK_SLAB
+  NETHER_BRICK_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NETHER_BRICK_SLAB
+  QUARTZ_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: QUARTZ_SLAB
+  RED_SANDSTONE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_SANDSTONE_SLAB
+  CUT_RED_SANDSTONE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CUT_RED_SANDSTONE_SLAB
+  PURPUR_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PURPUR_SLAB
+  PRISMARINE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PRISMARINE_SLAB
+  PRISMARINE_BRICK_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PRISMARINE_BRICK_SLAB
+  DARK_PRISMARINE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_PRISMARINE_SLAB
+  SMOOTH_QUARTZ:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_QUARTZ
+  SMOOTH_RED_SANDSTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_RED_SANDSTONE
+  SMOOTH_SANDSTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_SANDSTONE
+  SMOOTH_STONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_STONE
+  BRICKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BRICKS
+  BOOKSHELF:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BOOKSHELF
+  MOSSY_COBBLESTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MOSSY_COBBLESTONE
+  OBSIDIAN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OBSIDIAN
+  PURPUR_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PURPUR_BLOCK
+  PURPUR_PILLAR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PURPUR_PILLAR
+  PURPUR_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PURPUR_STAIRS
+  OAK_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_STAIRS
+  DIAMOND_ORE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_ORE
+  DIAMOND_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_BLOCK
+  COBBLESTONE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COBBLESTONE_STAIRS
+  REDSTONE_ORE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: REDSTONE_ORE
+  ICE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ICE
+  SNOW_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SNOW_BLOCK
+  CLAY:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CLAY
+  PUMPKIN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PUMPKIN
+  CARVED_PUMPKIN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CARVED_PUMPKIN
+  NETHERRACK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NETHERRACK
+  SOUL_SAND:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SOUL_SAND
+  GLOWSTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GLOWSTONE
+  JACK_O_LANTERN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JACK_O_LANTERN
+  STONE_BRICKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_BRICKS
+  MOSSY_STONE_BRICKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MOSSY_STONE_BRICKS
+  CRACKED_STONE_BRICKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CRACKED_STONE_BRICKS
+  CHISELED_STONE_BRICKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHISELED_STONE_BRICKS
+  MELON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MELON
+  BRICK_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BRICK_STAIRS
+  STONE_BRICK_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_BRICK_STAIRS
+  MYCELIUM:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MYCELIUM
+  NETHER_BRICKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NETHER_BRICKS
+  NETHER_BRICK_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NETHER_BRICK_STAIRS
+  END_STONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: END_STONE
+  END_STONE_BRICKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: END_STONE_BRICKS
+  SANDSTONE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SANDSTONE_STAIRS
+  EMERALD_ORE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: EMERALD_ORE
+  EMERALD_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: EMERALD_BLOCK
+  SPRUCE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_STAIRS
+  BIRCH_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_STAIRS
+  JUNGLE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_STAIRS
+  NETHER_QUARTZ_ORE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NETHER_QUARTZ_ORE
+  CHISELED_QUARTZ_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHISELED_QUARTZ_BLOCK
+  QUARTZ_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: QUARTZ_BLOCK
+  QUARTZ_PILLAR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: QUARTZ_PILLAR
+  QUARTZ_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: QUARTZ_STAIRS
+  WHITE_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WHITE_TERRACOTTA
+  ORANGE_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ORANGE_TERRACOTTA
+  MAGENTA_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MAGENTA_TERRACOTTA
+  LIGHT_BLUE_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_BLUE_TERRACOTTA
+  YELLOW_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: YELLOW_TERRACOTTA
+  LIME_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIME_TERRACOTTA
+  PINK_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PINK_TERRACOTTA
+  GRAY_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRAY_TERRACOTTA
+  LIGHT_GRAY_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_GRAY_TERRACOTTA
+  CYAN_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CYAN_TERRACOTTA
+  PURPLE_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PURPLE_TERRACOTTA
+  BLUE_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLUE_TERRACOTTA
+  BROWN_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BROWN_TERRACOTTA
+  GREEN_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GREEN_TERRACOTTA
+  RED_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_TERRACOTTA
+  BLACK_TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLACK_TERRACOTTA
+  HAY_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: HAY_BLOCK
+  TERRACOTTA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TERRACOTTA
+  COAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COAL_BLOCK
+  PACKED_ICE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PACKED_ICE
+  ACACIA_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_STAIRS
+  DARK_OAK_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_STAIRS
+  WHITE_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WHITE_STAINED_GLASS
+  ORANGE_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ORANGE_STAINED_GLASS
+  MAGENTA_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MAGENTA_STAINED_GLASS
+  LIGHT_BLUE_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_BLUE_STAINED_GLASS
+  YELLOW_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: YELLOW_STAINED_GLASS
+  LIME_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIME_STAINED_GLASS
+  PINK_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PINK_STAINED_GLASS
+  GRAY_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRAY_STAINED_GLASS
+  LIGHT_GRAY_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_GRAY_STAINED_GLASS
+  CYAN_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CYAN_STAINED_GLASS
+  PURPLE_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PURPLE_STAINED_GLASS
+  BLUE_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLUE_STAINED_GLASS
+  BROWN_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BROWN_STAINED_GLASS
+  GREEN_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GREEN_STAINED_GLASS
+  RED_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_STAINED_GLASS
+  BLACK_STAINED_GLASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLACK_STAINED_GLASS
+  PRISMARINE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PRISMARINE
+  PRISMARINE_BRICKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PRISMARINE_BRICKS
+  DARK_PRISMARINE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_PRISMARINE
+  PRISMARINE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PRISMARINE_STAIRS
+  PRISMARINE_BRICK_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PRISMARINE_BRICK_STAIRS
+  DARK_PRISMARINE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_PRISMARINE_STAIRS
+  SEA_LANTERN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SEA_LANTERN
+  RED_SANDSTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_SANDSTONE
+  CHISELED_RED_SANDSTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHISELED_RED_SANDSTONE
+  CUT_RED_SANDSTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CUT_RED_SANDSTONE
+  RED_SANDSTONE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_SANDSTONE_STAIRS
+  MAGMA_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MAGMA_BLOCK
+  NETHER_WART_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NETHER_WART_BLOCK
+  RED_NETHER_BRICKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_NETHER_BRICKS
+  BONE_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BONE_BLOCK
+  WHITE_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WHITE_CONCRETE
+  ORANGE_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ORANGE_CONCRETE
+  MAGENTA_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MAGENTA_CONCRETE
+  LIGHT_BLUE_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_BLUE_CONCRETE
+  YELLOW_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: YELLOW_CONCRETE
+  LIME_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIME_CONCRETE
+  PINK_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PINK_CONCRETE
+  GRAY_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRAY_CONCRETE
+  LIGHT_GRAY_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_GRAY_CONCRETE
+  CYAN_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CYAN_CONCRETE
+  PURPLE_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PURPLE_CONCRETE
+  BLUE_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLUE_CONCRETE
+  BROWN_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BROWN_CONCRETE
+  GREEN_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GREEN_CONCRETE
+  RED_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_CONCRETE
+  BLACK_CONCRETE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLACK_CONCRETE
+  WHITE_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WHITE_CONCRETE_POWDER
+  ORANGE_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ORANGE_CONCRETE_POWDER
+  MAGENTA_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MAGENTA_CONCRETE_POWDER
+  LIGHT_BLUE_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_BLUE_CONCRETE_POWDER
+  YELLOW_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: YELLOW_CONCRETE_POWDER
+  LIME_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIME_CONCRETE_POWDER
+  PINK_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PINK_CONCRETE_POWDER
+  GRAY_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRAY_CONCRETE_POWDER
+  LIGHT_GRAY_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_GRAY_CONCRETE_POWDER
+  CYAN_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CYAN_CONCRETE_POWDER
+  PURPLE_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PURPLE_CONCRETE_POWDER
+  BLUE_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLUE_CONCRETE_POWDER
+  BROWN_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BROWN_CONCRETE_POWDER
+  GREEN_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GREEN_CONCRETE_POWDER
+  RED_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_CONCRETE_POWDER
+  BLACK_CONCRETE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLACK_CONCRETE_POWDER
+  DEAD_TUBE_CORAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DEAD_TUBE_CORAL_BLOCK
+  DEAD_BRAIN_CORAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DEAD_BRAIN_CORAL_BLOCK
+  DEAD_BUBBLE_CORAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DEAD_BUBBLE_CORAL_BLOCK
+  DEAD_FIRE_CORAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DEAD_FIRE_CORAL_BLOCK
+  DEAD_HORN_CORAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DEAD_HORN_CORAL_BLOCK
+  TUBE_CORAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TUBE_CORAL_BLOCK
+  BRAIN_CORAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BRAIN_CORAL_BLOCK
+  BUBBLE_CORAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BUBBLE_CORAL_BLOCK
+  FIRE_CORAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FIRE_CORAL_BLOCK
+  HORN_CORAL_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: HORN_CORAL_BLOCK
+  BLUE_ICE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLUE_ICE
+  POLISHED_GRANITE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POLISHED_GRANITE_STAIRS
+  SMOOTH_RED_SANDSTONE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_RED_SANDSTONE_STAIRS
+  MOSSY_STONE_BRICK_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MOSSY_STONE_BRICK_STAIRS
+  POLISHED_DIORITE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POLISHED_DIORITE_STAIRS
+  MOSSY_COBBLESTONE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MOSSY_COBBLESTONE_STAIRS
+  END_STONE_BRICK_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: END_STONE_BRICK_STAIRS
+  STONE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_STAIRS
+  SMOOTH_SANDSTONE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_SANDSTONE_STAIRS
+  SMOOTH_QUARTZ_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_QUARTZ_STAIRS
+  GRANITE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRANITE_STAIRS
+  ANDESITE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ANDESITE_STAIRS
+  RED_NETHER_BRICK_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_NETHER_BRICK_STAIRS
+  POLISHED_ANDESITE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POLISHED_ANDESITE_STAIRS
+  DIORITE_STAIRS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIORITE_STAIRS
+  POLISHED_GRANITE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POLISHED_GRANITE_SLAB
+  SMOOTH_RED_SANDSTONE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_RED_SANDSTONE_SLAB
+  MOSSY_STONE_BRICK_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MOSSY_STONE_BRICK_SLAB
+  POLISHED_DIORITE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POLISHED_DIORITE_SLAB
+  MOSSY_COBBLESTONE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MOSSY_COBBLESTONE_SLAB
+  END_STONE_BRICK_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: END_STONE_BRICK_SLAB
+  SMOOTH_SANDSTONE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_SANDSTONE_SLAB
+  SMOOTH_QUARTZ_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SMOOTH_QUARTZ_SLAB
+  GRANITE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRANITE_SLAB
+  ANDESITE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ANDESITE_SLAB
+  RED_NETHER_BRICK_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_NETHER_BRICK_SLAB
+  POLISHED_ANDESITE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POLISHED_ANDESITE_SLAB
+  DIORITE_SLAB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIORITE_SLAB
+  DRIED_KELP_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DRIED_KELP_BLOCK

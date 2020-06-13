@@ -1,0 +1,86 @@
+name: '&9矿物'
+id: mine
+display-item:
+  display-type: ITEM
+  material: DIAMOND
+slot: 3
+sort-type: FILL
+items:
+  COAL:
+    buy: 0.8
+    sell: 0.4
+    item:
+      type: NORMAL
+      material: COAL
+  CHARCOAL:
+    buy: 0.8
+    sell: 0.4
+    item:
+      type: NORMAL
+      material: CHARCOAL
+  DIAMOND:
+    buy: 45
+    sell: 35
+    item:
+      type: NORMAL
+      material: DIAMOND
+  IRON_INGOT:
+    buy: 8
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_INGOT
+  GOLD_INGOT:
+    buy: 11
+    sell: 8
+    item:
+      type: NORMAL
+      material: GOLD_INGOT
+  EMERALD:
+    buy: 60
+    sell: 0
+    item:
+      type: NORMAL
+      material: EMERALD
+  LAPIS_LAZULI:
+    buy: 0.6
+    sell: 0.3
+    item:
+      type: NORMAL
+      material: LAPIS_LAZULI
+  REDSTONE:
+    buy: 0.7
+    sell: 0.35
+    item:
+      type: NORMAL
+      material: REDSTONE
+  ZISHUIJING:
+    item:
+      type: SPECIAL
+      display-name: mine
+      serial:
+        v: 2230
+        type: GLOWSTONE_DUST
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §f§f紫水晶
+          custom-model-data: 1
+          internal: H4sIAAAAAAAAAAXBQQ6AIAwEwA1eoL9sbKNLUkKsHuT1zAggEL4eqWb+VLSh4Tn1dBzR/4pCgyzm/bFzXMAG4j0vxjQAAAA=
+    buy: 40.0
+    sell: 25.0
+  HUANGSHUIJING:
+    item:
+      type: SPECIAL
+      display-name: '&f黄水晶'
+      serial:
+        v: 2230
+        type: GLOWSTONE_DUST
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §f§f黄水晶
+          custom-model-data: 2
+          internal: H4sIAAAAAAAAAAXB0QrAIAgF0Et7acI+UqaUgRK5Hvb3nUMAgexTTxbRVVFM8PTN0bJvGxat4g52zcmv4vLxAwf71jb/NwAAAA==
+    buy: 30.0
+    sell: 20.0

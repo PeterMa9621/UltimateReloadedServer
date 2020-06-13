@@ -1,0 +1,944 @@
+name: '&9Brewing'
+id: 'brewing'
+display-item:
+  display-type: ITEM
+  material: POTION
+slot: 31
+sort-type: FILL
+items:
+  GHAST_TEAR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GHAST_TEAR
+  POTION_NIGHT_VISION:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: NIGHT_VISION
+  POTION_NIGHT_VISION_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: NIGHT_VISION
+      extended: true
+  POTION_INVISIBILITY:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: INVISIBILITY
+  POTION_INVISIBILITY_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: INVISIBILITY
+      extended: true
+  POTION_LEAPING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: JUMP_BOOST
+  POTION_LEAPING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: JUMP_BOOST
+      extended: true
+  POTION_LEAPING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: JUMP_BOOST
+      upgraded: true
+  POTION_FIRE_RESISTANCE:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: FIRE_RESISTANCE
+  POTION_FIRE_RESISTANCE_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: FIRE_RESISTANCE
+      extended: true
+  POTION_SWIFTNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: SPEED
+  POTION_SWIFTNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: SPEED
+      extended: true
+  POTION_SWIFTNESS_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: SPEED
+      upgraded: true
+  POTION_SLOWNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: SLOWNESS
+  POTION_SLOWNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: SLOWNESS
+      extended: true
+  POTION_SLOWNESS_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: SLOWNESS
+      upgraded: true
+  POTION_TURTLE_MASTER:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: TURTLE_MASTER
+  POTION_TURTLE_MASTER_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: TURTLE_MASTER
+      extended: true
+  POTION_TURTLE_MASTER_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: TURTLE_MASTER
+      upgraded: true
+  POTION_WATER_BREATHING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: WATER_BREATHING
+  POTION_WATER_BREATHING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: WATER_BREATHING
+      extended: true
+  POTION_HEALING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: INSTANT_HEALING
+  POTION_HEALING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: INSTANT_HEALING
+      upgraded: true
+  POTION_HARMING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: INSTANT_DAMAGE
+  POTION_HARMING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: INSTANT_DAMAGE
+      upgraded: true
+  POTION_POISON:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: POISON
+  POTION_POISON_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: POISON
+      extended: true
+  POTION_POISON_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: POISON
+      upgraded: true
+  POTION_REGENERATION:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: REGENERATION
+  POTION_REGENERATION_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: REGENERATION
+      extended: true
+  POTION_REGENERATION_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: REGENERATION
+      upgraded: true
+  POTION_STRENGTH:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: STRENGTH
+  POTION_STRENGTH_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: STRENGTH
+      extended: true
+  POTION_STRENGTH_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: STRENGTH
+      upgraded: true
+  POTION_WEAKNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: WEAKNESS
+  POTION_WEAKNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: WEAKNESS
+      extended: true
+  POTION_LUCK:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: LUCK
+  POTION_SLOW_FALLING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: SLOW_FALLING
+  POTION_SLOW_FALLING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: POTION
+      effect: SLOW_FALLING
+      extended: true
+  GLASS_BOTTLE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GLASS_BOTTLE
+  FERMENTED_SPIDER_EYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FERMENTED_SPIDER_EYE
+  BLAZE_POWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLAZE_POWDER
+  MAGMA_CREAM:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MAGMA_CREAM
+  BREWING_STAND:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BREWING_STAND
+  CAULDRON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CAULDRON
+  GLISTERING_MELON_SLICE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GLISTERING_MELON_SLICE
+  GOLDEN_CARROT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_CARROT
+  RABBIT_FOOT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RABBIT_FOOT
+  DRAGON_BREATH:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DRAGON_BREATH
+  SPLASH_NIGHT_VISION:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: NIGHT_VISION
+  SPLASH_NIGHT_VISION_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: NIGHT_VISION
+      extended: true
+  SPLASH_INVISIBILITY:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: INVISIBILITY
+  SPLASH_INVISIBILITY_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: INVISIBILITY
+      extended: true
+  SPLASH_LEAPING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: JUMP_BOOST
+  SPLASH_LEAPING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: JUMP_BOOST
+      extended: true
+  SPLASH_LEAPING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: JUMP_BOOST
+      upgraded: true
+  SPLASH_FIRE_RESISTANCE:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: FIRE_RESISTANCE
+  SPLASH_FIRE_RESISTANCE_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: FIRE_RESISTANCE
+      extended: true
+  SPLASH_SWIFTNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: SPEED
+  SPLASH_SWIFTNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: SPEED
+      extended: true
+  SPLASH_SWIFTNESS_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: SPEED
+      upgraded: true
+  SPLASH_SLOWNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: SLOWNESS
+  SPLASH_SLOWNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: SLOWNESS
+      extended: true
+  SPLASH_SLOWNESS_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: SLOWNESS
+      upgraded: true
+  SPLASH_TURTLE_MASTER:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: TURTLE_MASTER
+  SPLASH_TURTLE_MASTER_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: TURTLE_MASTER
+      extended: true
+  SPLASH_TURTLE_MASTER_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: TURTLE_MASTER
+      upgraded: true
+  SPLASH_WATER_BREATHING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: WATER_BREATHING
+  SPLASH_WATER_BREATHING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: WATER_BREATHING
+      extended: true
+  SPLASH_HEALING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: INSTANT_HEALING
+  SPLASH_HEALING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: INSTANT_HEALING
+      upgraded: true
+  SPLASH_HARMING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: INSTANT_DAMAGE
+  SPLASH_HARMING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: INSTANT_DAMAGE
+      upgraded: true
+  SPLASH_POISON:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: POISON
+  SPLASH_POISON_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: POISON
+      extended: true
+  SPLASH_POISON_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: POISON
+      upgraded: true
+  SPLASH_REGENERATION:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: REGENERATION
+  SPLASH_REGENERATION_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: REGENERATION
+      extended: true
+  SPLASH_REGENERATION_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: REGENERATION
+      upgraded: true
+  SPLASH_STRENGTH:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: STRENGTH
+  SPLASH_STRENGTH_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: STRENGTH
+      extended: true
+  SPLASH_STRENGTH_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: STRENGTH
+      upgraded: true
+  SPLASH_WEAKNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: WEAKNESS
+  SPLASH_WEAKNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: WEAKNESS
+      extended: true
+  SPLASH_LUCK:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: LUCK
+  SPLASH_SLOW_FALLING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: SLOW_FALLING
+  SPLASH_SLOW_FALLING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: SPLASH_POTION
+      effect: SLOW_FALLING
+      extended: true
+  LINGER_NIGHT_VISION:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: NIGHT_VISION
+  LINGER_NIGHT_VISION_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: NIGHT_VISION
+      extended: true
+  LINGER_INVISIBILITY:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: INVISIBILITY
+  LINGER_INVISIBILITY_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: INVISIBILITY
+      extended: true
+  LINGER_LEAPING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: JUMP_BOOST
+  LINGER_LEAPING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: JUMP_BOOST
+      extended: true
+  LINGER_LEAPING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: JUMP_BOOST
+      upgraded: true
+  LINGER_FIRE_RESISTANCE:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: FIRE_RESISTANCE
+  LINGER_FIRE_RESISTANCE_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: FIRE_RESISTANCE
+      extended: true
+  LINGER_SWIFTNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: SPEED
+  LINGER_SWIFTNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: SPEED
+      extended: true
+  LINGER_SWIFTNESS_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: SPEED
+      upgraded: true
+  LINGER_SLOWNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: SLOWNESS
+  LINGER_SLOWNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: SLOWNESS
+      extended: true
+  LINGER_SLOWNESS_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: SLOWNESS
+      upgraded: true
+  LINGER_TURTLE_MASTER:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: TURTLE_MASTER
+  LINGER_TURTLE_MASTER_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: TURTLE_MASTER
+      extended: true
+  LINGER_TURTLE_MASTER_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: TURTLE_MASTER
+      upgraded: true
+  LINGER_WATER_BREATHING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: WATER_BREATHING
+  LINGER_WATER_BREATHING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: WATER_BREATHING
+      extended: true
+  LINGER_HEALING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: INSTANT_HEALING
+  LINGER_HEALING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: INSTANT_HEALING
+      upgraded: true
+  LINGER_HARMING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: INSTANT_DAMAGE
+  LINGER_HARMING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: INSTANT_DAMAGE
+      upgraded: true
+  LINGER_POISON:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: POISON
+  LINGER_POISON_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: POISON
+      extended: true
+  LINGER_POISON_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: POISON
+      upgraded: true
+  LINGER_REGENERATION:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: REGENERATION
+  LINGER_REGENERATION_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: REGENERATION
+      extended: true
+  LINGER_REGENERATION_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: REGENERATION
+      upgraded: true
+  LINGER_STRENGTH:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: STRENGTH
+  LINGER_STRENGTH_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: STRENGTH
+      extended: true
+  LINGER_STRENGTH_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: STRENGTH
+      upgraded: true
+  LINGER_WEAKNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: WEAKNESS
+  LINGER_WEAKNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: WEAKNESS
+      extended: true
+  LINGER_LUCK:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: LUCK
+  LINGER_SLOW_FALLING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: SLOW_FALLING
+  LINGER_SLOW_FALLING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: LINGERING_POTION
+      effect: SLOW_FALLING
+      extended: true
+  PHANTOM_MEMBRANE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PHANTOM_MEMBRANE

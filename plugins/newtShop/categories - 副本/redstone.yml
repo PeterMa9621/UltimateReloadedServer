@@ -1,0 +1,338 @@
+name: '&9Redstone'
+id: 'redstone'
+display-item:
+  display-type: ITEM
+  material: REDSTONE
+slot: 14
+sort-type: FILL
+items:
+  DISPENSER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DISPENSER
+  NOTE_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NOTE_BLOCK
+  STICKY_PISTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STICKY_PISTON
+  PISTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PISTON
+  TNT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TNT
+  LEVER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LEVER
+  STONE_PRESSURE_PLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_PRESSURE_PLATE
+  OAK_PRESSURE_PLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_PRESSURE_PLATE
+  SPRUCE_PRESSURE_PLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_PRESSURE_PLATE
+  BIRCH_PRESSURE_PLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_PRESSURE_PLATE
+  JUNGLE_PRESSURE_PLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_PRESSURE_PLATE
+  ACACIA_PRESSURE_PLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_PRESSURE_PLATE
+  DARK_OAK_PRESSURE_PLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_PRESSURE_PLATE
+  REDSTONE_TORCH:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: REDSTONE_TORCH
+  STONE_BUTTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_BUTTON
+  OAK_TRAPDOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_TRAPDOOR
+  SPRUCE_TRAPDOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_TRAPDOOR
+  BIRCH_TRAPDOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_TRAPDOOR
+  JUNGLE_TRAPDOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_TRAPDOOR
+  ACACIA_TRAPDOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_TRAPDOOR
+  DARK_OAK_TRAPDOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_TRAPDOOR
+  OAK_FENCE_GATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_FENCE_GATE
+  SPRUCE_FENCE_GATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_FENCE_GATE
+  BIRCH_FENCE_GATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_FENCE_GATE
+  JUNGLE_FENCE_GATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_FENCE_GATE
+  ACACIA_FENCE_GATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_FENCE_GATE
+  DARK_OAK_FENCE_GATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_FENCE_GATE
+  REDSTONE_LAMP:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: REDSTONE_LAMP
+  TRIPWIRE_HOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TRIPWIRE_HOOK
+  OAK_BUTTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_BUTTON
+  SPRUCE_BUTTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_BUTTON
+  BIRCH_BUTTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_BUTTON
+  JUNGLE_BUTTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_BUTTON
+  ACACIA_BUTTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_BUTTON
+  DARK_OAK_BUTTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_BUTTON
+  TRAPPED_CHEST:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TRAPPED_CHEST
+  LIGHT_WEIGHTED_PRESSURE_PLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_WEIGHTED_PRESSURE_PLATE
+  HEAVY_WEIGHTED_PRESSURE_PLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: HEAVY_WEIGHTED_PRESSURE_PLATE
+  DAYLIGHT_DETECTOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DAYLIGHT_DETECTOR
+  REDSTONE_BLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: REDSTONE_BLOCK
+  HOPPER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: HOPPER
+  DROPPER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DROPPER
+  IRON_TRAPDOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_TRAPDOOR
+  OBSERVER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OBSERVER
+  IRON_DOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_DOOR
+  OAK_DOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OAK_DOOR
+  SPRUCE_DOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPRUCE_DOOR
+  BIRCH_DOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BIRCH_DOOR
+  JUNGLE_DOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: JUNGLE_DOOR
+  ACACIA_DOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ACACIA_DOOR
+  DARK_OAK_DOOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DARK_OAK_DOOR
+  REPEATER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: REPEATER
+  COMPARATOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COMPARATOR
+  REDSTONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: REDSTONE
+  LECTERN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LECTERN

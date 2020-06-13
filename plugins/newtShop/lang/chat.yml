@@ -1,0 +1,126 @@
+# Customize chat messages. Support alternate color codes
+chat-messages:
+   # Message sent when a player buys an item
+   # @amount@ = number of items bought
+   # @item@ = the item bought
+   # @price@ = the amount purchased for
+   buy-message: "&7花费 &e@price@ &7金币购买了 &e@amount@ &7个 @item@"
+   
+   # Message sent when a player doesn't have enough money to buy an item
+   not-enough-money: "&c你没有足够的金币!"
+   
+   # Message sent when a player doesn't have enough inventory space to buy an item
+   not-enough-space: "&c你背包内没有足够的空间!"
+   
+   # Message sent when a player sells an item
+   # @amount@ = number of items bought
+   # @item@ = the item bought
+   # @price@ = the amount sold for
+   sell-message: "&7卖了 &e@amount@ &7个 &e@item@&7,获得 &e@price@ &7金币"
+   
+   # Message sent when a player doesn't have enough of an item to sell
+   not-enough-items: "&c你没有那么多物品可以出售!"
+   
+   # Message sent when an item can't be sold with /sell or /sellall
+   cant-sell: "&c这个物品不能出售!"
+   
+   # Message sent to confirm /sell
+   # @amount@ = number of items bought
+   # @item@ = the item bought
+   # @price@ = the amount sold for
+   confirm-sell: "&7再次输入 '/sell' 来确认要以 &e@price@ &7金币出售 &e@amount@ &7个&7 @item@"
+   
+   # Message sent when /sell is used with too many arguments
+   sell-arguments: "&c命令错误! 用法: /sell"
+   
+   # Message sent to confirm /sellall
+   # @amount@ = number of items bought
+   # @item@ = the item bought
+   # @price@ = the amount sold for
+   confirm-sellall: "&7再次输入 '/sellall' 来确认要以 &e@price@ &7金币出售 &e@amount@ &7个&7 @item@"
+   
+   # Message sent when /sellall is used with too many arguments
+   sellall-arguments: "&c命令错误! 用法: /sellall"
+   
+   # Message sent to confirm /sellinv
+   # @list@ = the list of items to be sold
+   confirm-sellinv: "&7再次输入 '/sellinv' 来确认出售 @list@"
+   
+   # Message sent when /sellinv is used with too many arguments
+   sellinv-arguments: "&c命令错误! 用法: /sellinv"
+   
+   # Message sent when items are sold with /sellinv
+   # @amount@ = the amount of items sold
+   # @price@ = the total amount sold for
+   sellinv-message: "&7出售 &e@amount@ &7个&7 物品,获得 &e@price@ &7金币"
+   
+   # Message sent when a player uses /sellinv but has no sellable items
+   nothing-to-sell: "&c没有物品可以出售!"
+   
+   # Message sent when /shop is used with too many arguments
+   shop-arguments: "&c命令错误! 用法: /shop or /shop <商店名>"
+   
+   # Message sent when /shop <category> is used and the category doesn't exist
+   shop-no-category: "&c没有那个商店!"
+   
+   # Message sent when /shop is used with too many arguments and tab complete is disabled
+   shop-arguments-notab: "&c命令错误! 用法: /shop"
+   
+   # Message sent when a player doesn't have permission for a command
+   no-permission: "&c你没有权限这么做!"
+   
+   # Message sent when a player uses the /shop reload command
+   reload: "&a配置重载成功!"
+   
+   # Message sent when /shopmanage is used with incorrect arguments
+   manage-arguments: "&c命令错误! 用法: /shopmanage <add|edit> ..."
+   
+   # Message sent when the category given in /shopmanage doesn't exist
+   # @category@ = the category used in the command
+   manage-no-category: "&c没有以 @category@ 为标签的商店!"
+   
+   # Message sent when '/shopmanage add' is used with incorrect arguments
+   manage-add-arguments: "&c命令错误! 用法: /shopmanage add <category_id> <item_id> <buy> <sell> <shop_name>"
+   
+   # Message sent when '/shopmanage edit' is used with incorrect arguments
+   manage-edit-arguments: "&c命令错误! 用法: /shopmanage edit <buy|sell> <category_id> <item_id> <price>"
+   
+   # Message sent when an item is added with '/shopmanage add'
+   # @item@ = the item added
+   manage-item-added: "&a成功增加物品: &e@item@!"
+   
+   # Message sent when a buy price is updated with '/shopmanage edit buy'
+   # @item@ = the item that was updated
+   # @price@ = the new price
+   manage-buy-changed: "&a物品 &e@item@ &a的购买价格调整为: &e@price@"
+   
+   # Message sent when a sell price is updated with '/shopmanage edit sell'
+   # @item@ = the item that was updated
+   # @price@ = the new price
+   manage-sell-changed: "&a物品 &e@item@ &a的出售价格调整为: &e@price@"
+   
+   # Message sent when a player places a sell chest
+   sell-chest-placed: "&a你放置了一个箱子商店!"
+   
+   # Message sent when a player tries to place a sell chest next to another chest
+   sell-chest-double: "&c你不能把箱子商店放置在别的箱子附近!"
+   
+   # Message sent when a player tries to place a sell chest, but isn't allowed
+   sell-chest-no-place-permission: "&c你没有权限放置一个箱子商店!"
+   
+   # Message sent when a player tries to break a sell chest, but isn't allowed
+   sell-chest-no-break-permission: "&c你没有权限破坏一个箱子商店!" 
+   
+   # Message sent when a player receives money from sell chests
+   # @amount@ = the amount earned
+   sell-chest-sold: "&7你的箱子商店获得了 &e@amount@ &7个金币!"
+   
+   # Message sent when a player receives money from using the sell wand
+   # @amount@ = the amount earned
+   sell-wand-sold: "&7你通过售卖魔杖获得了 &e@amount@ &7个金币!"
+   
+   # Message sent when a player uses the sell wand on a block that isn't a container
+   sell-wand-not-container: "&c这不是一个容器!"
+   
+   # Message sent when a player uses the sell wand on a container with no sellable items
+   sell-wand-nothing-to-sell: "&c这个容器中什么东西都没有!"

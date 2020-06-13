@@ -1,0 +1,4 @@
+# Set next/previous page button labels for Paginated GUIs. Support alternate color codes
+gui-labels:
+  next-page: "&fNext Page"
+  previous-page: "&fPrevious Page"

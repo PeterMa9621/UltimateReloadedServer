@@ -1,0 +1,75 @@
+# Set the prefix for chat messages. Supports alternate color codes
+chat-prefix: '&7[&9商店系统&7]'
+
+# Set the number of rows in the main shop GUI
+main-rows: 4
+
+# true = Allow tab complete for the /shop command for quick access to categories
+# false = Disable this feature
+enable-tab-complete: true
+
+# true = Require players to have permission to access each category
+# false = Disable this feature
+enable-category-permissions: false
+
+# true = Allow players to sell items directly with /sell and /sellall
+# false = Disable this feature 
+enable-sell-commands: true
+
+# true - Show buy/sell prices as lore in the category lists
+# false - Disable this feature
+show-prices-while-browsing: true
+
+# true = Display button to sell inventory in the main shop GUI
+# false = Disable this feature
+enable-sellinv-button: false
+
+# true = Fill empty slots with the specified item
+# false = Leave empty slots empty
+fill-empty-slots: false
+empty-slot-item:
+   item: BLACK_STAINED_GLASS_PANE
+
+#=============================
+# Towny Settings
+#=============================
+towny-war-chest:
+  # true = Send a percentage of shop profits to the war chest
+  # false = Disable this feature
+  enable: false
+   
+  # The percentage of profits to send to the war chest as a decimal (0.01 = 1%) 
+  # NOTE: Does nothing if 'enable' is set to false
+  percent: 0.01
+   
+#=============================
+# Sell Chests Settings
+#=============================
+# true = Allow players to use special chests to automatically sell items
+# false = disable this feature
+enable-sell-chests: false
+
+# Set the name Sell Chests should have
+sell-chest-name: '&9Sell Chest'
+
+# Set the multiplier for items sold through sell chests
+sell-chest-multiplier: 0.5
+
+# Set how often sell chests should sell their contents, in minutes
+sell-chest-interval: 30
+
+#=============================
+# Sell Wand Settings
+#=============================
+# true = Allow players to use the sell wand to sell container inventories
+# false = Disable this feature
+enable-sell-wand: false
+
+sell-wand-item:
+  material: GOLDEN_HOE
+  name: '&aSell Wand'
+  lore:
+    - '&eRight click a container with'
+    - '&ethis to sell its contents!'
+  glint: true
+  uses: 50

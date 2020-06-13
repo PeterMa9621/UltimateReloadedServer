@@ -1,0 +1,61 @@
+# Customize GUI messages. Support alternate color codes
+gui-messages:
+   # Title of the main shop GUI
+   shop-name: "主城商店"
+   
+   # Prefix for the titles of the "Item Shop - $item" GUIs
+   item-shop-name: "物品商店 - "
+
+   # Button label for the sell inventory button, if enabled
+   sellinv: "&c出售一整背包的该物品"
+
+   # Button label to return to the categories screen
+   return-to-categories: "&9返回主页"
+   
+   # Button label for the exit button
+   exit: "&c离开"
+   
+   # Button label for the next page button
+   next-page: "&f下一页"
+   
+   # Button label for the previous page button
+   prev-page: "&f上一页"
+   
+   # Button label for buy buttons
+   # @amount@ = number of items to buy
+   buy: "&a购买 @amount@ 个"
+   
+   # Button label for sell buttons
+   # @amount@ = number of items to sell
+   sell: "&c出售 @amount@ 个"
+   
+   # Button label for the fill inventory button
+   fill-inv: "&a购买一整背包的该物品"
+   
+   # Lore for the fill inventory button
+   # @amount@ = number of items to buy
+   # @price@ = the amount purchased for
+   fill-inv-lore: "&7花费 &e@price@ &7购买 &e@amount@ &7个"
+   
+   # Button label for the sell all button
+   sell-all: "&c出售所有的该物品"
+   
+   # Lore for the sell all button
+   # @amount@ = number of items to sell
+   # @price@ = the amount sold for
+   sell-all-lore: "&7出售 &e@amount@ &7个,可得 &e@price@"
+   
+   # Button label to return to the item list
+   # @category@ = the category to return to
+   return-to-items: "&9返回 @category@"
+   
+   # Button label for the emerald that shows the player's balance
+   balance: "&2余额"
+   
+   # Text shown for the buy price in price previews
+   # @price@ = the buy price
+   preview-buy: "&a购买: &e@price@"
+   
+   # Text shown for the sell price in price previews
+   # @price@ = the sell price
+   preview-sell: "&c出售: &e@price@"

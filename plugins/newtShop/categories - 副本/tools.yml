@@ -1,0 +1,234 @@
+name: '&9Tools'
+id: 'tools'
+display-item:
+  display-type: ITEM
+  material: IRON_AXE
+slot: 23
+sort-type: FILL
+items:
+  IRON_SHOVEL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_SHOVEL
+  IRON_PICKAXE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_PICKAXE
+  IRON_AXE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_AXE
+  FLINT_AND_STEEL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FLINT_AND_STEEL
+  WOODEN_SHOVEL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WOODEN_SHOVEL
+  WOODEN_PICKAXE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WOODEN_PICKAXE
+  WOODEN_AXE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WOODEN_AXE
+  STONE_SHOVEL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_SHOVEL
+  STONE_PICKAXE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_PICKAXE
+  STONE_AXE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_AXE
+  DIAMOND_SHOVEL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_SHOVEL
+  DIAMOND_PICKAXE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_PICKAXE
+  DIAMOND_AXE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_AXE
+  GOLDEN_SHOVEL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_SHOVEL
+  GOLDEN_PICKAXE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_PICKAXE
+  GOLDEN_AXE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_AXE
+  WOODEN_HOE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WOODEN_HOE
+  STONE_HOE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_HOE
+  IRON_HOE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_HOE
+  DIAMOND_HOE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_HOE
+  GOLDEN_HOE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_HOE
+  COMPASS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COMPASS
+  FISHING_ROD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FISHING_ROD
+  CLOCK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CLOCK
+  SHEARS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SHEARS
+  EFFICIENCY_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        EFFICIENCY: 5
+  SILK_TOUCH_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        SILK_TOUCH: 1
+  UNBREAKING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        UNBREAKING: 3
+  FORTUNE_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        FORTUNE: 3
+  LUCK_OF_THE_SEA_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        LUCK_OF_THE_SEA: 3
+  LURE_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        LURE: 3
+  MENDING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        MENDING: 1
+  CURSE_OF_VANISHING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        CURSE_OF_VANISHING: 1
+  LEAD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LEAD
+  NAME_TAG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NAME_TAG

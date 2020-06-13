@@ -1,0 +1,750 @@
+name: '&9Combat'
+id: 'combat'
+display-item:
+  display-type: ITEM
+  material: GOLDEN_SWORD
+slot: 30
+sort-type: FILL
+items:
+  TURTLE_HELMET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TURTLE_HELMET
+  BOW:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BOW
+  ARROW:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ARROW
+  IRON_SWORD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_SWORD
+  WOODEN_SWORD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WOODEN_SWORD
+  STONE_SWORD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STONE_SWORD
+  DIAMOND_SWORD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_SWORD
+  GOLDEN_SWORD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_SWORD
+  LEATHER_HELMET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LEATHER_HELMET
+  LEATHER_CHESTPLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LEATHER_CHESTPLATE
+  LEATHER_LEGGINGS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LEATHER_LEGGINGS
+  LEATHER_BOOTS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LEATHER_BOOTS
+  CHAINMAIL_HELMET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHAINMAIL_HELMET
+  CHAINMAIL_CHESTPLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHAINMAIL_CHESTPLATE
+  CHAINMAIL_LEGGINGS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHAINMAIL_LEGGINGS
+  CHAINMAIL_BOOTS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHAINMAIL_BOOTS
+  IRON_HELMET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_HELMET
+  IRON_CHESTPLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_CHESTPLATE
+  IRON_LEGGINGS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_LEGGINGS
+  IRON_BOOTS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_BOOTS
+  DIAMOND_HELMET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_HELMET
+  DIAMOND_CHESTPLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_CHESTPLATE
+  DIAMOND_LEGGINGS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_LEGGINGS
+  DIAMOND_BOOTS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_BOOTS
+  GOLDEN_HELMET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_HELMET
+  GOLDEN_CHESTPLATE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_CHESTPLATE
+  GOLDEN_LEGGINGS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_LEGGINGS
+  GOLDEN_BOOTS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_BOOTS
+  PROTECTION_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        PROTECTION: 4
+  FIRE_PROTECTION_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        FIRE_PROTECTION: 4
+  FEATHER_FALLING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        FEATHER_FALLING: 4
+  BLAST_PROTECTION_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        BLAST_PROTECTION: 4
+  PROJECTILE_PROTECTION_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        PROJECTILE_PROTECTION: 4
+  RESPIRATION_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        RESPIRATION: 3
+  AQUA_AFFINITY_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        AQUA_AFFINITY: 1
+  THORNS_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        THORNS: 3
+  DEPTH_STRIDER_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        DEPTH_STRIDER: 3
+  FROST_WALKER_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        FROST_WALKER: 2
+  BINDING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        CURSE_OF_BINDING: 1
+  SHARPNESS_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        SHARPNESS: 5
+  SMITE_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        SMITE: 5
+  BANE_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        BANE_OF_ARTHROPODS: 5
+  KNOCKBACK_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        KNOCKBACK: 2
+  FIRE_ASPECT_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        FIRE_ASPECT: 2
+  LOOTING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        LOOTING: 3
+  SWEEPING_EDGE_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        SWEEPING_EDGE: 3
+  UNBREAKING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        UNBREAKING: 3
+  POWER_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        POWER: 5
+  PUNCH_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        PUNCH: 2
+  FLAME_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        FLAME: 1
+  INFINITY_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        INFINITY: 1
+  LOYALTY_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        LOYALTY: 3
+  IMPALING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        IMPALING: 5
+  RIPTIDE_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        RIPTIDE: 3
+  CHANNELING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        CHANNELING: 1
+  MULTISHOT_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        MULTISHOT: 1
+  QUICK_CHARGE_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        QUICK_CHARGE: 3
+  PIERCING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        PIERCING: 4
+  MENDING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        MENDING: 1
+  VANISHING_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: ENCHANTED
+      material: ENCHANTED_BOOK
+      enchantments:
+        CURSE_OF_VANISHING: 1
+  SPECTRAL_ARROW:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPECTRAL_ARROW
+  ARROW_NIGHT_VISION:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: NIGHT_VISION
+  ARROW_NIGHT_VISION_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: NIGHT_VISION
+      extended: true
+  ARROW_INVISIBILITY:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: INVISIBILITY
+  ARROW_INVISIBILITY_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: INVISIBILITY
+      extended: true
+  ARROW_LEAPING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: JUMP_BOOST
+  ARROW_LEAPING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: JUMP_BOOST
+      extended: true
+  ARROW_LEAPING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: JUMP_BOOST
+      upgraded: true
+  ARROW_FIRE_RESISTANCE:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: FIRE_RESISTANCE
+  ARROW_FIRE_RESISTANCE_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: FIRE_RESISTANCE
+      extended: true
+  ARROW_SWIFTNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: SPEED
+  ARROW_SWIFTNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: SPEED
+      extended: true
+  ARROW_SWIFTNESS_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: SPEED
+      upgraded: true
+  ARROW_SLOWNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: SLOWNESS
+  ARROW_SLOWNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: SLOWNESS
+      extended: true
+  ARROW_SLOWNESS_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: SLOWNESS
+      upgraded: true
+  ARROW_TURTLE_MASTER:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: TURTLE_MASTER
+  ARROW_TURTLE_MASTER_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: TURTLE_MASTER
+      extended: true
+  ARROW_TURTLE_MASTER_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: TURTLE_MASTER
+      upgraded: true
+  ARROW_WATER_BREATHING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: WATER_BREATHING
+  ARROW_WATER_BREATHING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: WATER_BREATHING
+      extended: true
+  ARROW_HEALING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: INSTANT_HEALING
+  ARROW_HEALING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: INSTANT_HEALING
+      upgraded: true
+  ARROW_HARMING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: INSTANT_DAMAGE
+  ARROW_HARMING_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: INSTANT_DAMAGE
+      upgraded: true
+  ARROW_POISON:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: POISON
+  ARROW_POISON_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: POISON
+      extended: true
+  ARROW_POISON_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: POISON
+      upgraded: true
+  ARROW_REGENERATION:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: REGENERATION
+  ARROW_REGENERATION_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: REGENERATION
+      extended: true
+  ARROW_REGENERATION_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: REGENERATION
+      upgraded: true
+  ARROW_STRENGTH:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: STRENGTH
+  ARROW_STRENGTH_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: STRENGTH
+      extended: true
+  ARROW_STRENGTH_II:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: STRENGTH
+      upgraded: true
+  ARROW_WEAKNESS:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: WEAKNESS
+  ARROW_WEAKNESS_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: WEAKNESS
+      extended: true
+  ARROW_LUCK:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: LUCK
+  ARROW_SLOW_FALLING:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: SLOW_FALLING
+  ARROW_SLOW_FALLING_EXTENDED:
+    buy: 10
+    sell: 5
+    item:
+      type: BASE_POTION
+      material: TIPPED_ARROW
+      effect: SLOW_FALLING
+      extended: true
+  SHIELD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SHIELD
+  TOTEM_OF_UNDYING:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TOTEM_OF_UNDYING
+  TRIDENT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TRIDENT
+  CROSSBOW:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CROSSBOW

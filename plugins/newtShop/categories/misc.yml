@@ -1,0 +1,50 @@
+name: '&9杂物'
+id: 'misc'
+display-item:
+  display-type: ITEM
+  material: NETHER_STAR
+slot: 14
+sort-type: FILL
+items:
+  NETHER_STAR:
+    buy: 10000
+    sell: 0
+    item:
+      type: NORMAL
+      material: NETHER_STAR
+  GUNPOWDER:
+    buy: 3
+    sell: 0
+    item:
+      type: NORMAL
+      material: GUNPOWDER
+  SEAGRASS:
+    buy: 1
+    sell: 0
+    item:
+      type: NORMAL
+      material: SEAGRASS
+  SUGAR:
+    buy: 1
+    sell: 0
+    item:
+      type: NORMAL
+      material: SUGAR
+  BONE:
+    buy: 1
+    sell: 0
+    item:
+      type: NORMAL
+      material: BONE
+  SNOWBALL:
+    buy: 0.5
+    sell: 0
+    item:
+      type: NORMAL
+      material: SNOWBALL
+  SADDLE:
+    buy: 10
+    sell: 4
+    item:
+      type: NORMAL
+      material: SADDLE

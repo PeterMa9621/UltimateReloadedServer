@@ -1,0 +1,1016 @@
+name: '&9Miscellaneous'
+id: 'misc'
+display-item:
+  display-type: ITEM
+  material: LAVA_BUCKET
+slot: 32
+sort-type: FILL
+items:
+  BEACON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BEACON
+  DRAGON_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DRAGON_EGG
+  TURTLE_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TURTLE_EGG
+  CONDUIT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CONDUIT
+  COMPOSTER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COMPOSTER
+  SCUTE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SCUTE
+  COAL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COAL
+  CHARCOAL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHARCOAL
+  DIAMOND:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND
+  IRON_INGOT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_INGOT
+  GOLD_INGOT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLD_INGOT
+  STICK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STICK
+  BOWL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BOWL
+  STRING:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRING
+  FEATHER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FEATHER
+  GUNPOWDER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GUNPOWDER
+  WHEAT_SEEDS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WHEAT_SEEDS
+  WHEAT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WHEAT
+  FLINT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FLINT
+  BUCKET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BUCKET
+  WATER_BUCKET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WATER_BUCKET
+  LAVA_BUCKET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LAVA_BUCKET
+  SNOWBALL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SNOWBALL
+  LEATHER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LEATHER
+  MILK_BUCKET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MILK_BUCKET
+  PUFFERFISH_BUCKET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PUFFERFISH_BUCKET
+  SALMON_BUCKET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SALMON_BUCKET
+  COD_BUCKET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COD_BUCKET
+  TROPICAL_FISH_BUCKET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TROPICAL_FISH_BUCKET
+  BRICK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BRICK
+  CLAY_BALL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CLAY_BALL
+  SUGAR_CANE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SUGAR_CANE
+  KELP:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: KELP
+  BAMBOO:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BAMBOO
+  PAPER:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PAPER
+  BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BOOK
+  SLIME_BALL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SLIME_BALL
+  EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: EGG
+  GLOWSTONE_DUST:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GLOWSTONE_DUST
+  INK_SAC:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: INK_SAC
+  RED_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RED_DYE
+  GREEN_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GREEN_DYE
+  COCOA_BEANS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COCOA_BEANS
+  LAPIS_LAZULI:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LAPIS_LAZULI
+  PURPLE_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PURPLE_DYE
+  CYAN_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CYAN_DYE
+  LIGHT_GRAY_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_GRAY_DYE
+  GRAY_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GRAY_DYE
+  PINK_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PINK_DYE
+  LIME_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIME_DYE
+  YELLOW_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: YELLOW_DYE
+  LIGHT_BLUE_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LIGHT_BLUE_DYE
+  MAGENTA_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MAGENTA_DYE
+  ORANGE_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ORANGE_DYE
+  BONE_MEAL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BONE_MEAL
+  BLUE_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLUE_DYE
+  BROWN_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BROWN_DYE
+  BLACK_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLACK_DYE
+  WHITE_DYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WHITE_DYE
+  BONE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BONE
+  SUGAR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SUGAR
+  PUMPKIN_SEEDS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PUMPKIN_SEEDS
+  MELON_SEEDS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MELON_SEEDS
+  ENDER_PEARL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ENDER_PEARL
+  BLAZE_ROD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLAZE_ROD
+  GOLD_NUGGET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLD_NUGGET
+  NETHER_WART:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NETHER_WART
+  ENDER_EYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ENDER_EYE
+  BAT_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BAT_SPAWN_EGG
+  BEE_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BEE_SPAWN_EGG
+  BLAZE_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BLAZE_SPAWN_EGG
+  CAT_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CAT_SPAWN_EGG
+  CAVE_SPIDER_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CAVE_SPIDER_SPAWN_EGG
+  CHICKEN_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHICKEN_SPAWN_EGG
+  COD_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COD_SPAWN_EGG
+  COW_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COW_SPAWN_EGG
+  CREEPER_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CREEPER_SPAWN_EGG
+  DOLPHIN_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DOLPHIN_SPAWN_EGG
+  DONKEY_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DONKEY_SPAWN_EGG
+  DROWNED_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DROWNED_SPAWN_EGG
+  ELDER_GUARDIAN_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ELDER_GUARDIAN_SPAWN_EGG
+  ENDERMAN_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ENDERMAN_SPAWN_EGG
+  EVOKER_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: EVOKER_SPAWN_EGG
+  FOX_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FOX_SPAWN_EGG
+  GHAST_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GHAST_SPAWN_EGG
+  GUARDIAN_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GUARDIAN_SPAWN_EGG
+  HORSE_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: HORSE_SPAWN_EGG
+  HUSK_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: HUSK_SPAWN_EGG
+  LLAMA_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LLAMA_SPAWN_EGG
+  MAGMA_CUBE_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MAGMA_CUBE_SPAWN_EGG
+  MOOSHROOM_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MOOSHROOM_SPAWN_EGG
+  MULE_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MULE_SPAWN_EGG
+  OCELOT_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: OCELOT_SPAWN_EGG
+  PANDA_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PANDA_SPAWN_EGG
+  PARROT_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PARROT_SPAWN_EGG
+  PHANTOM_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PHANTOM_SPAWN_EGG
+  PIG_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PIG_SPAWN_EGG
+  PILLAGER_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PILLAGER_SPAWN_EGG
+  POLAR_BEAR_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POLAR_BEAR_SPAWN_EGG
+  PUFFERFISH_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PUFFERFISH_SPAWN_EGG
+  RABBIT_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RABBIT_SPAWN_EGG
+  RAVAGER_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RAVAGER_SPAWN_EGG
+  SALMON_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SALMON_SPAWN_EGG
+  SHEEP_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SHEEP_SPAWN_EGG
+  SHULKER_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SHULKER_SPAWN_EGG
+  SILVERFISH_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SILVERFISH_SPAWN_EGG
+  SKELETON_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SKELETON_SPAWN_EGG
+  SKELETON_HORSE_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SKELETON_HORSE_SPAWN_EGG
+  SLIME_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SLIME_SPAWN_EGG
+  SPIDER_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPIDER_SPAWN_EGG
+  SQUID_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SQUID_SPAWN_EGG
+  STRAY_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: STRAY_SPAWN_EGG
+  TRADER_LLAMA_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TRADER_LLAMA_SPAWN_EGG
+  TROPICAL_FISH_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TROPICAL_FISH_SPAWN_EGG
+  TURTLE_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TURTLE_SPAWN_EGG
+  VEX_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: VEX_SPAWN_EGG
+  VILLAGER_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: VILLAGER_SPAWN_EGG
+  VINDICATOR_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: VINDICATOR_SPAWN_EGG
+  WANDERING_TRADER_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WANDERING_TRADER_SPAWN_EGG
+  WITCH_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WITCH_SPAWN_EGG
+  WITHER_SKELETON_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WITHER_SKELETON_SPAWN_EGG
+  WOLF_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WOLF_SPAWN_EGG
+  ZOMBIE_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ZOMBIE_SPAWN_EGG
+  ZOMBIE_HORSE_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ZOMBIE_HORSE_SPAWN_EGG
+  ZOMBIE_PIGMAN_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ZOMBIE_PIGMAN_SPAWN_EGG
+  ZOMBIE_VILLAGER_SPAWN_EGG:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ZOMBIE_VILLAGER_SPAWN_EGG
+  EXPERIENCE_BOTTLE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: EXPERIENCE_BOTTLE
+  FIRE_CHARGE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FIRE_CHARGE
+  WRITABLE_BOOK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: WRITABLE_BOOK
+  EMERALD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: EMERALD
+  MAP:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MAP
+  NETHER_STAR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NETHER_STAR
+  FIREWORK_ROCKET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FIREWORK_ROCKET
+  FIREWORK_STAR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FIREWORK_STAR
+  NETHER_BRICK:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NETHER_BRICK
+  QUARTZ:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: QUARTZ
+  PRISMARINE_SHARD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PRISMARINE_SHARD
+  PRISMARINE_CRYSTALS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PRISMARINE_CRYSTALS
+  RABBIT_HIDE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RABBIT_HIDE
+  IRON_HORSE_ARMOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_HORSE_ARMOR
+  GOLDEN_HORSE_ARMOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_HORSE_ARMOR
+  DIAMOND_HORSE_ARMOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DIAMOND_HORSE_ARMOR
+  LEATHER_HORSE_ARMOR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: LEATHER_HORSE_ARMOR
+  CHORUS_FRUIT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHORUS_FRUIT
+  POPPED_CHORUS_FRUIT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POPPED_CHORUS_FRUIT
+  BEETROOT_SEEDS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BEETROOT_SEEDS
+  SHULKER_SHELL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SHULKER_SHELL
+  IRON_NUGGET:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: IRON_NUGGET
+  MUSIC_DISC_13:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_13
+  MUSIC_DISC_CAT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_CAT
+  MUSIC_DISC_BLOCKS:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_BLOCKS
+  MUSIC_DISC_CHIRP:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_CHIRP
+  MUSIC_DISC_FAR:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_FAR
+  MUSIC_DISC_MALL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_MALL
+  MUSIC_DISC_MELLOHI:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_MELLOHI
+  MUSIC_DISC_STAL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_STAL
+  MUSIC_DISC_STRAD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_STRAD
+  MUSIC_DISC_WARD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_WARD
+  MUSIC_DISC_11:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_11
+  MUSIC_DISC_WAIT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSIC_DISC_WAIT
+  NAUTILUS_SHELL:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: NAUTILUS_SHELL
+  HEART_OF_THE_SEA:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: HEART_OF_THE_SEA
+  FLOWER_BANNER_PATTERN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: FLOWER_BANNER_PATTERN
+  CREEPER_BANNER_PATTERN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CREEPER_BANNER_PATTERN
+  SKULL_BANNER_PATTERN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SKULL_BANNER_PATTERN
+  MOJANG_BANNER_PATTERN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MOJANG_BANNER_PATTERN
+  GLOBE_BANNER_PATTERN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GLOBE_BANNER_PATTERN
+  HONEYCOMB:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: HONEYCOMB

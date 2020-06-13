@@ -1,4 +1,4 @@
-8192 nodes in total
+8185 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -7167,13 +7167,6 @@ ftbutilities.claims.item.tconstruct.wide_guard: ALL
 ftbutilities.claims.item.tconstruct.wood_rail: ALL
 ftbutilities.claims.item.tconstruct.wood_rail_trapdoor: ALL
 ftbutilities.claims.item.tconstruct.wooden_hopper: ALL
-ftbutilities.claims.item.teslacorelib.base_addon: ALL
-ftbutilities.claims.item.teslacorelib.energy_tier1: ALL
-ftbutilities.claims.item.teslacorelib.energy_tier2: ALL
-ftbutilities.claims.item.teslacorelib.machine_case: ALL
-ftbutilities.claims.item.teslacorelib.speed_tier1: ALL
-ftbutilities.claims.item.teslacorelib.speed_tier2: ALL
-ftbutilities.claims.item.teslacorelib.wrench: ALL
 ftbutilities.claims.item.thaumcraft.activator_rail: ALL
 ftbutilities.claims.item.thaumcraft.alembic: ALL
 ftbutilities.claims.item.thaumcraft.alumentum: ALL

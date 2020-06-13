@@ -1,0 +1,230 @@
+name: '&9Foodstuffs'
+id: 'food'
+display-item:
+  display-type: ITEM
+  material: APPLE
+slot: 22
+sort-type: FILL
+items:
+  APPLE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: APPLE
+  MUSHROOM_STEW:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUSHROOM_STEW
+  BREAD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BREAD
+  PORKCHOP:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PORKCHOP
+  COOKED_PORKCHOP:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COOKED_PORKCHOP
+  GOLDEN_APPLE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: GOLDEN_APPLE
+  ENCHANTED_GOLDEN_APPLE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ENCHANTED_GOLDEN_APPLE
+  COD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COD
+  SALMON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SALMON
+  TROPICAL_FISH:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: TROPICAL_FISH
+  PUFFERFISH:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PUFFERFISH
+  COOKED_COD:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COOKED_COD
+  COOKED_SALMON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COOKED_SALMON
+  CAKE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CAKE
+  COOKIE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COOKIE
+  MELON_SLICE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MELON_SLICE
+  DRIED_KELP:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: DRIED_KELP
+  BEEF:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BEEF
+  COOKED_BEEF:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COOKED_BEEF
+  CHICKEN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CHICKEN
+  COOKED_CHICKEN:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COOKED_CHICKEN
+  ROTTEN_FLESH:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: ROTTEN_FLESH
+  SPIDER_EYE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SPIDER_EYE
+  CARROT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: CARROT
+  POTATO:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POTATO
+  BAKED_POTATO:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BAKED_POTATO
+  POISONOUS_POTATO:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: POISONOUS_POTATO
+  PUMPKIN_PIE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: PUMPKIN_PIE
+  RABBIT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RABBIT
+  COOKED_RABBIT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COOKED_RABBIT
+  RABBIT_STEW:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: RABBIT_STEW
+  MUTTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: MUTTON
+  COOKED_MUTTON:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: COOKED_MUTTON
+  BEETROOT:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BEETROOT
+  BEETROOT_SOUP:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: BEETROOT_SOUP
+  SWEET_BERRIES:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: SWEET_BERRIES
+  HONEY_BOTTLE:
+    buy: 10
+    sell: 5
+    item:
+      type: NORMAL
+      material: HONEY_BOTTLE
