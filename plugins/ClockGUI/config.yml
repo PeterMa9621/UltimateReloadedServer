@@ -110,7 +110,7 @@ GUI:
             Use: false
             Number: 2
       '8':
-        Position: 40
+        Position: 49
         # 物品ID为 "主ID:附加值"
         ItemID: 'EMERALD'
         Name: '&6打开点券商城'
