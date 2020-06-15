@@ -127,6 +127,24 @@ GUI:
           OpenAnotherGUI:
             Use: true
             Id: '1'
+      '9':
+        Position: 40
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'EMERALD'
+        Name: '&6test'
+        Lore: '&2点击test'
+        Enchantment:
+          ID: 35
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: 
+            - 'minecraft:give %player% ic2:ingot 1 3'
+          OpenAnotherGUI:
+            Use: false
+            Id: '1'
   '1':
     Name: '&5&l赞助商城'
     Item:
