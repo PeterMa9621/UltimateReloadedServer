@@ -141,7 +141,7 @@ GUI:
           Command:
             Use: true
             Content: 
-            - 'minecraft:give %player% ic2:ingot 1 3'
+            - 'minecraft:give {player} ic2:ingot 1 3'
           OpenAnotherGUI:
             Use: false
             Id: '1'
