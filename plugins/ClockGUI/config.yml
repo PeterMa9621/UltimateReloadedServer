@@ -7,6 +7,11 @@ Clock:
   - '&2右键我打开菜单'
   World:
   - world
+  - DIM-5
+  - DIM1
+  - DIM-1
+  - DIM-2
+  - DIM-3
 GUI:
   '0':
     Name: '&1艾伯塔模组服菜单'
