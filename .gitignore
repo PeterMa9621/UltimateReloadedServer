@@ -176,3 +176,5 @@ plugins/CrazyCrates/Locations.yml
 plugins/newtShop/categories/
 
 libraries/
+
+plugins/DailyRewards/data.db
