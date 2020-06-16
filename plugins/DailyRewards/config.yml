@@ -20,79 +20,75 @@ rewards:
   '1':
     lore:
     - '&e&l奖励：'
-    - '&6- $500'
-    - '&6- x2 钻石'
+    - '&6- $100'
+    - '&6- 3个钻石'
     commands:
-    - 'console: eco give %player% 500'
-    - 'console: give %player% diamond 2'
+    - 'console: eco give %player% 200'
+    - 'console: give %player% diamond 3'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
   '2':
     lore:
     - '&e&l奖励：'
-    - '&6- $1500'
-    - '&6- x4 钻石'
+    - '&6- $200'
+    - '&6- 6个钻石'
     commands:
-    - 'console: eco give %player% 1500'
-    - 'console: give %player% diamond 2'
+    - 'console: eco give %player% 400'
+    - 'console: give %player% diamond 6'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
   '3':
     lore:
     - '&e&l奖励：'
-    - '&6- $3500'
-    - '&6- x8 钻石'
+    - '&6- $300'
+    - '&6- 10个钻石'
     commands:
-    - 'console: eco give %player% 3500'
-    - 'console: give %player% diamond 8'
+    - 'console: eco give %player% 700'
+    - 'console: give %player% diamond 10'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
   '4':
     lore:
     - '&e&l奖励：'
-    - '&6- $5000'
-    - '&6- x16 钻石'
-    - '&6- 10 Exp Levels'
+    - '&6- $400'
+    - '&6- 16个钻石'
     commands:
-    - 'console: eco give %player% 5000'
+    - 'console: eco give %player% 1000'
     - 'console: give %player% diamond 16'
-    - 'console: exp give %player% 10l'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
   '5':
     lore:
     - '&e&l奖励：'
-    - '&6- $5000'
-    - '&6- x16 钻石'
-    - '&6- 20 Exp Levels'
+    - '&6- $500'
+    - '&6- 16个钻石'
+    - '&6- 1把普通抽奖钥匙'
     commands:
-    - 'console: eco give %player% 5000'
+    - 'console: eco give %player% 1000'
     - 'console: give %player% diamond 16'
-    - 'console: exp give %player% 20l'
+    - 'console: crate key %player% 普通抽奖箱 1'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
   '6':
     lore:
     - '&e&l奖励：'
-    - '&6- $5000'
-    - '&6- x16 钻石'
-    - '&6- 30 Exp Levels'
+    - '&6- $500'
+    - '&6- 20个钻石'
     commands:
-    - 'console: eco give %player% 5000'
-    - 'console: give %player% diamond 16'
-    - 'console: exp give %player% 30l'
+    - 'console: eco give %player% 500'
+    - 'console: give %player% diamond 20'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
   '7':
     lore:
     - '&e&l奖励：'
-    - '&6- $10000'
-    - '&6- x16 钻石'
-    - '&6- 40 Exp Levels'
+    - '&6- $1000'
+    - '&6- 24个钻石'
+    - '&6- 1把中级抽奖钥匙'
     commands:
-    - 'console: eco give %player% 10000'
-    - 'console: give %player% diamond 16'
-    - 'console: exp give %player% 40l'
+    - 'console: eco give %player% 1000'
+    - 'console: give %player% diamond 24'
+    - 'console: crate key %player% 中级抽奖箱 1'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
 gui:

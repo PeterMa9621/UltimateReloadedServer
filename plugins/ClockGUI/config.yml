@@ -132,6 +132,42 @@ GUI:
           OpenAnotherGUI:
             Use: true
             Id: '1'
+      '9':
+        Position: 39
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'EMERALD'
+        Name: '&6打开签到界面'
+        Lore: '&2点击打开签到界面'
+        Enchantment:
+          ID: 35
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: 
+            - 'dailyreward'
+          OpenAnotherGUI:
+            Use: false
+            Id: '1'
+      '10':
+        Position: 41
+        # 物品ID为 "主ID:附加值"
+        ItemID: 'EMERALD'
+        Name: '&6打开VIP签到界面'
+        Lore: '&2点击打开VIP签到界面'
+        Enchantment:
+          ID: 35
+          Level: 1
+        HideEnchant: true
+        Function:
+          Command:
+            Use: true
+            Content: 
+            - 'daily'
+          OpenAnotherGUI:
+            Use: false
+            Id: '1'
   '1':
     Name: '&5&l赞助商城'
     Item:
