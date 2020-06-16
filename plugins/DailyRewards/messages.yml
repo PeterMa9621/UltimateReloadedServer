@@ -1,0 +1,25 @@
+Prefix: '&6[&e每日奖励&6] &7'
+Commands:
+  Help:
+    Usage: '&c使用方法: &e/dailyrewards %command% %usage%'
+    Commands:
+    - '&8&m-----------&8&l[ &a每日奖励 &8&l]&8&m-----------'
+    - ''
+    - '&2» &a/dailyrewards &7- 打开界面.'
+    - '&2» &a/dailyrewards help &7- 帮助页面.'
+    - '&2» &a/dailyrewards reload &7- 重载插件.'
+    - ''
+    - '&8&m--------------------------------------'
+Command:
+  Reload:
+    Exec: '&a配置已重载!'
+Time:
+  Sec: 秒
+  Min: 分
+  Hour: 小时
+  Day: 天
+Error:
+  NoPerm: '&c你没有权限这么做.'
+  Number: '&c无效的数字: &e%num%'
+  NoPlayer: '&c玩家不存在!'
+  Console: '&c这个命令只对玩家有效!'
