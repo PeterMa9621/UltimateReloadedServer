@@ -156,3 +156,19 @@ config/infernalmobs.cfg
 plugins/RedProtect/data/
 
 libraries/red/mohist/mappings/nms.srg
+
+plugins/RedProtect/guiZH-CN.properties
+
+plugins/RedProtect/langZH-CN.properties
+
+plugins/RewardPro/database/
+
+plugins/CrazyCrates/Crates/
+
+plugins/RewardPro/dailyReward.yml
+
+plugins/RewardPro/refer.yml
+
+plugins/CrazyCrates/data.yml
+
+plugins/CrazyCrates/Locations.yml
