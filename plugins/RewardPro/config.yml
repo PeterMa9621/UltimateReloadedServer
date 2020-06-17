@@ -15,7 +15,7 @@
 # You see the full documentation of this file here: 
 # https://pastebin.com/kekSgXzV
 
-Prefix: '&0[&3RewardPro&0]&f'
+Prefix: '&0[&3VIP签到&0]&f'
 DefaultPresentManName: '&3&lPresent Man'
 Function:
   ReferSystem: false
