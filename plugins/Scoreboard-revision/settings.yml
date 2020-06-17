@@ -26,22 +26,20 @@ board:
   title:
     interval: 3
     liner:
-      - '&4> &c&l艾伯塔 &4<'
-      - '&4> &5&l艾伯塔 &4<'
+      - '&4> &c&l%player_name% &4<'
   rows:
     1:
       interval: 5
       liner:
       - '&c-------------------'
-      - '&4-------------------'
     2:
       interval: 80
       liner:
-      - '&c玩家:'
+      - '%vipSystem_vipGroup%'
     3:
       interval: 80
       liner:
-      - '%player_name%'
+      - '%vipSystem_leftTime%'
     4:
       interval: 80
       liner:
@@ -82,4 +80,3 @@ board:
       interval: 5
       liner:
       - '&c-------------------'
-      - '&4-------------------'

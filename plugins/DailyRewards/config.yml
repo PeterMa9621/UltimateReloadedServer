@@ -23,7 +23,7 @@ rewards:
     - '&6- $100'
     - '&6- 3个钻石'
     commands:
-    - 'console: eco give %player% 200'
+    - 'console: eco give %player% 100'
     - 'console: give %player% diamond 3'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
@@ -33,7 +33,7 @@ rewards:
     - '&6- $200'
     - '&6- 6个钻石'
     commands:
-    - 'console: eco give %player% 400'
+    - 'console: eco give %player% 200'
     - 'console: give %player% diamond 6'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
@@ -41,53 +41,53 @@ rewards:
     lore:
     - '&e&l奖励：'
     - '&6- $300'
-    - '&6- 10个钻石'
+    - '&6- 8个钻石'
     commands:
-    - 'console: eco give %player% 700'
-    - 'console: give %player% diamond 10'
+    - 'console: eco give %player% 300'
+    - 'console: give %player% diamond 8'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
   '4':
     lore:
     - '&e&l奖励：'
     - '&6- $400'
-    - '&6- 16个钻石'
+    - '&6- 10个钻石'
     commands:
-    - 'console: eco give %player% 1000'
-    - 'console: give %player% diamond 16'
+    - 'console: eco give %player% 400'
+    - 'console: give %player% diamond 10'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
   '5':
     lore:
     - '&e&l奖励：'
     - '&6- $500'
-    - '&6- 16个钻石'
+    - '&6- 12个钻石'
     - '&6- 1把普通抽奖钥匙'
     commands:
-    - 'console: eco give %player% 1000'
-    - 'console: give %player% diamond 16'
+    - 'console: eco give %player% 500'
+    - 'console: give %player% diamond 12'
     - 'console: crate key %player% 普通抽奖箱 1'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
   '6':
     lore:
     - '&e&l奖励：'
-    - '&6- $500'
-    - '&6- 20个钻石'
+    - '&6- $600'
+    - '&6- 14个钻石'
     commands:
-    - 'console: eco give %player% 500'
-    - 'console: give %player% diamond 20'
+    - 'console: eco give %player% 600'
+    - 'console: give %player% diamond 14'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'
   '7':
     lore:
     - '&e&l奖励：'
-    - '&6- $1000'
-    - '&6- 24个钻石'
+    - '&6- $700'
+    - '&6- 16个钻石'
     - '&6- 1把中级抽奖钥匙'
     commands:
-    - 'console: eco give %player% 1000'
-    - 'console: give %player% diamond 24'
+    - 'console: eco give %player% 700'
+    - 'console: give %player% diamond 16'
     - 'console: crate key %player% 中级抽奖箱 1'
     messages:
     - '&a恭喜！你已连续签到%day%天了！'

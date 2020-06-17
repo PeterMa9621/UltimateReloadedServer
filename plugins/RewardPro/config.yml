@@ -15,16 +15,16 @@
 # You see the full documentation of this file here: 
 # https://pastebin.com/kekSgXzV
 
-Prefix: '&0[&3VIP礼包&0]&f'
-DefaultPresentManName: '&3&lPresent Man'
+Prefix: '&0[&3会员礼包&0]&f'
+DefaultPresentManName: '&3&l礼物使者'
 Function:
   ReferSystem: false
-  CheckUpdate: true
+  CheckUpdate: false
   Debug: false
   RespawnPresentMan: false
   DailyRewards:
     Enable: true
-    AnnounceDailyRewardOnJoin: true
+    AnnounceDailyRewardOnJoin: false
     IPChecker: false
   RESTfulAPI:
     Enable: false
