@@ -164,7 +164,7 @@ GUI:
           Command:
             Use: true
             Content: 
-            - 'daily'
+            - 'rewards'
           OpenAnotherGUI:
             Use: false
             Id: '1'
