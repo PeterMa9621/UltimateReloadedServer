@@ -11,7 +11,7 @@ data:
     days: 60
 options:
   auto-open:
-    enabled: true
+    enabled: false
     only-when-have: true
   days-row: 7
   rewards-cooldown: 86400
