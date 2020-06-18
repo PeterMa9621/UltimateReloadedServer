@@ -26,7 +26,7 @@ board:
   title:
     interval: 80
     liner:
-      - '&4> &c&l%player_name% &4<'
+      - '&4> &6欢迎&c&l%player_name% &4<'
   rows:
     1:
       interval: 80
@@ -35,15 +35,15 @@ board:
     2:
       interval: 80
       liner:
-      - '%vipSystem_vipGroup%'
+      - '&c身份:'
     3:
       interval: 80
       liner:
-      - '%vipSystem_leftTime%'
+      - '&6&l%vipSystem_vipGroup%'
     4:
       interval: 80
       liner:
-      - ''
+      - '&2%vipSystem_leftTime%'
     5:
       interval: 80
       liner:
@@ -68,6 +68,10 @@ board:
       interval: 20
       liner:
       - '%playerpoints_points%'
+    11:
+      interval: 20
+      liner:
+      - '&6QQ群：571075430'
     50:
       interval: 5
       liner:
