@@ -178,7 +178,9 @@ GUI:
         Position: 15
         ItemID: 'DIAMOND'
         Name: '&6打开全球市场'
-        Lore: '&2点击打开全球市场'
+        Lore: 
+        - '&2点击打开全球市场'
+        - '&2全球市场帮助指令为：&6/ca help'
         Function:
           Command:
             Use: true
