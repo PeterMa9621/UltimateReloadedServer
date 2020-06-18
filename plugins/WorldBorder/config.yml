@@ -1,5 +1,5 @@
 cfg-version: 11
-message: '&cYou have reached the edge of this world.'
+message: '&c你已到达世界边缘.'
 round-border: true
 debug-mode: false
 whoosh-effect: true
@@ -8,7 +8,7 @@ knock-back-dist: 3.0
 timer-delay-ticks: 5
 remount-delay-ticks: 0
 dynmap-border-enabled: true
-dynmap-border-message: The border of the world.
+dynmap-border-message: 世界边缘.
 dynmap-border-hideByDefault: false
 dynmap-border-priority: 0
 player-killed-bad-spawn: false
