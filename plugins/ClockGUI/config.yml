@@ -183,7 +183,7 @@ GUI:
           Command:
             Use: true
             Content: 
-            - 'market'
+            - 'ca gui'
           OpenAnotherGUI:
             Use: false
             Number: 2
