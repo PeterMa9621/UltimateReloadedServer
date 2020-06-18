@@ -19,7 +19,7 @@ interval_announcement_list:
 announcements:
   donate:
   - '[{"text":"[服务器公告] ","color":"light_purple"},{"text":"如果你喜欢我们服务器，欢迎赞助我们。","color":"green"},{"text":"点击打开赞助界面","color":"gold","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/clock
-    open 1"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击打开赞助网站","color":"red"}]}}}]'
+    open 1"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击打开赞助界面","color":"red"}]}}}]'
   test:
   - '[{"text":"[服务器公告] ","color":"light_purple"},{"text":"目前模组服务器还处于测试中，如遇BUG请汇报给管理员，我们的QQ群：571075430","color":"green"}]'
   checkIn:
