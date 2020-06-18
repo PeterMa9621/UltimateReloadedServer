@@ -43,32 +43,40 @@ board:
     4:
       interval: 80
       liner:
-      - '&c已圈地数量: &f%redprotect_player_used_claims%/%redprotect_player_total_claims%'
+      - '&c已圈地数量:'
     5:
       interval: 80
       liner:
-      - '&c已圈地面积: &f%redprotect_player_used_blocks%/%redprotect_player_total_blocks%'
+      - '&f%redprotect_player_used_claims%/%redprotect_player_total_claims%'
     6:
       interval: 80
       liner:
-      - ''
+      - '&c已圈地面积: '
     7:
-      interval: 20
+      interval: 80
       liner:
-      - '&c金币: &f%vault_eco_balance_fixed%'
+      - '&f%redprotect_player_used_blocks%/%redprotect_player_total_claims%'
     8:
       interval: 80
       liner:
       - ''
     9:
-      interval: 80
+      interval: 20
       liner:
-      - '&c点券: &f%playerpoints_points%'
+      - '&c金币: &f%vault_eco_balance_fixed%'
     10:
       interval: 80
       liner:
       - ''
     11:
+      interval: 80
+      liner:
+      - '&c点券: &f%playerpoints_points%'
+    12:
+      interval: 80
+      liner:
+      - ''
+    13:
       interval: 20
       liner:
       - '&6QQ群：571075430'
