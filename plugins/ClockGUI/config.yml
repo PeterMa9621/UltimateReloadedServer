@@ -310,6 +310,10 @@ GUI:
             Content:
             - crate key {player} 普通抽奖箱 1
             RunAsOp: true
+        Enchantment:
+          ID: 35
+          Level: 1
+        HideEnchant: true
       '9':
         Position: 30
         ItemID: TRIPWIRE_HOOK
@@ -325,6 +329,10 @@ GUI:
             Content:
             - crate key {player} 中级抽奖箱 1
             RunAsOp: true
+        Enchantment:
+          ID: 35
+          Level: 1
+        HideEnchant: true
       '10':
         Position: 32
         ItemID: TRIPWIRE_HOOK
@@ -340,6 +348,10 @@ GUI:
             Content:
             - crate key {player} 高级抽奖箱 1
             RunAsOp: true
+        Enchantment:
+          ID: 35
+          Level: 1
+        HideEnchant: true
       '11':
         Position: 34
         ItemID: TRIPWIRE_HOOK
@@ -355,6 +367,10 @@ GUI:
             Content:
             - crate key {player} 终极抽奖箱 1
             RunAsOp: true
+        Enchantment:
+          ID: 35
+          Level: 1
+        HideEnchant: true
       '12':
         Position: 53
         ItemID: redstone
