@@ -61,7 +61,7 @@ GUI:
       '4':
         Position: 6
         # 物品ID为 "主ID:附加值"
-        ItemID: 'DIAMOND_PICKAXE'
+        ItemID: 'AVARITIA_INFINITY_PICKAXE'
         Name: '&6传送至矿界'
         Lore: '&2点击传送至矿界'
         Function:
@@ -75,7 +75,7 @@ GUI:
       '5':
         Position: 8
         # 物品ID为 "主ID:附加值"
-        ItemID: 'DIAMOND_SWORD'
+        ItemID: 'TWILIGHTFOREST_MINIATURE_STRUCTURE'
         Name: '&6传送至暮色森林'
         Lore: '&2点击传送至暮色森林'
         Function:
@@ -87,25 +87,29 @@ GUI:
             Use: false
             Number: 2
       '6':
-        Position: 10
+        Position: 14
         # 物品ID为 "主ID:附加值"
-        ItemID: 'DIAMOND'
-        Name: '&6传送至主城商店'
-        Lore: '&2点击传送至主城商店'
+        ItemID: 'THERMALFOUNDATION_COIN'
+        Name: '&6打开主城商店'
+        Lore: '&2点击打开主城商店'
         Function:
           Command:
             Use: true
             Content: 
-            - 'warp shop'
+            - 'shop'
           OpenAnotherGUI:
             Use: false
             Number: 2
       '7':
         Position: 12
         # 物品ID为 "主ID:附加值"
-        ItemID: 'CHEST'
+        ItemID: 'STORAGEDRAWERS_SHROUD_KEY'
         Name: '&6传送至抽奖屋'
         Lore: '&2点击传送至抽奖屋'
+        Enchantment:
+          ID: 35
+          Level: 1
+        HideEnchant: true
         Function:
           Command:
             Use: true
@@ -117,7 +121,8 @@ GUI:
       '8':
         Position: 49
         # 物品ID为 "主ID:附加值"
-        ItemID: 'EMERALD'
+        ItemID: 'THERMALFOUNDATION_COIN'
+        Model: 1
         Name: '&6打开点券商城'
         Lore: '&2点击打开点券商城'
         Enchantment:
@@ -135,7 +140,7 @@ GUI:
       '9':
         Position: 39
         # 物品ID为 "主ID:附加值"
-        ItemID: 'EMERALD'
+        ItemID: 'IC2_ENERGY_CRYSTAL'
         Name: '&6打开签到界面'
         Lore: '&2点击打开签到界面'
         Enchantment:
@@ -153,9 +158,9 @@ GUI:
       '10':
         Position: 41
         # 物品ID为 "主ID:附加值"
-        ItemID: 'EMERALD'
-        Name: '&6打开VIP签到界面'
-        Lore: '&2点击打开VIP签到界面'
+        ItemID: 'IC2_LAPOTRON_CRYSTAL'
+        Name: '&6打开&a会员礼包&6界面'
+        Lore: '&2点击打开会员礼包界面'
         Enchantment:
           ID: 35
           Level: 1
@@ -173,8 +178,8 @@ GUI:
     Item:
       '1':
         Position: 2
-        ItemID: diamond
-        Name: '&a购买1000点券'
+        ItemID: 'THERMALFOUNDATION_COIN'
+        Name: '&f购买1000点券'
         Lore:
         - '&3点击购买1000点券'
         - '&5价格：10元'
@@ -185,8 +190,9 @@ GUI:
             - paygui 1000点券
       '2':
         Position: 4
-        ItemID: diamond
-        Name: '&a购买3000点券'
+        ItemID: 'THERMALFOUNDATION_COIN'
+        Model: 1
+        Name: '&f购买3000点券'
         Lore:
         - '&3点击购买3000点券'
         - '&5价格：30元'
@@ -197,8 +203,9 @@ GUI:
             - paygui 3000点券
       '3':
         Position: 6
-        ItemID: diamond
-        Name: '&a购买5000点券'
+        ItemID: 'THERMALFOUNDATION_COIN'
+        Model: 70
+        Name: '&f购买5000点券'
         Lore:
         - '&3点击购买5000点券'
         - '&5价格：50元'
@@ -209,41 +216,145 @@ GUI:
             - paygui 5000点券
       '4':
         Position: 20
-        ItemID: diamond
-        Name: '&a购买新手礼包'
+        ItemID: AVARITIA_SINGULARITY
+        Model: 11
+        Name: '&f开通&2初级会员'
         Lore:
-        - '&3内含工业开局套装'
-        - '&5价格：10元'
+        - '&f- &3获得&2初级会员&3称号'
+        - '&f- &6每日&2会员&6礼包'
+        - '&f- &6每周&2初级会员&6礼物'
+        - '&f- &3获得1500金币'
+        - '&f- &3获得普通抽奖钥匙1把'
+        - '&f- &3聊天彩字，随身工作台'
+        - '&f- &3设置4个家，随身末影箱'
+        - '&5价格：1500点券'
+        Cost:
+          Type: PlayerPoints
+          Price: 1500
         Function:
           Command:
             Use: true
+            CloseGui: true
             Content:
-            - paygui newbie1
+            - vip give {player} vip1 31
+            RunAsOp: true
       '5':
         Position: 22
-        ItemID: diamond
-        Name: '&a购买新手礼包'
+        ItemID: AVARITIA_SINGULARITY
+        Model: 5
+        Name: '&f开通&6高级会员'
         Lore:
-        - '&3内含工业开局套装'
-        - '&5价格：10元'
+        - '&f- &3获得&6高级会员&3称号'
+        - '&f- &3继承&2初级会员&3权限'
+        - '&f- &6每周&2初级会员&6礼物'
+        - '&f- &6每周&2高级会员&6礼物'
+        - '&f- &3获得3000金币'
+        - '&f- &3获得中级抽奖钥匙1把'
+        - '&f- &3设置6个家'
+        - '&5价格：3000点券'
+        Cost:
+          Type: PlayerPoints
+          Price: 3000
         Function:
           Command:
             Use: true
+            CloseGui: true
             Content:
-            - paygui newbie1
+            - vip give {player} vip2 31
+            RunAsOp: true
       '6':
         Position: 24
-        ItemID: diamond
-        Name: '&a购买新手礼包'
+        ItemID: AVARITIA_SINGULARITY
+        Model: 3
+        Name: '&f开通&5至尊会员'
         Lore:
-        - '&3内含工业开局套装'
-        - '&5价格：10元'
+        - '&f- &3获得&5至尊会员&3称号'
+        - '&f- &3继承&2高级会员&3权限'
+        - '&f- &6每周&2初级会员&6礼物'
+        - '&f- &6每周&2高级会员&6礼物'
+        - '&f- &6每周&2至尊会员&6礼物'
+        - '&f- &3获得5000金币'
+        - '&f- &3获得高级抽奖钥匙1把'
+        - '&f- &3设置8个家'
+        - '&5价格：5000点券'
+        Cost:
+          Type: PlayerPoints
+          Price: 5000
+        Function:
+          Command:
+            Use: true
+            CloseGui: true
+            Content:
+            - vip give {player} vip3 31
+            RunAsOp: true
+      '7':
+        Position: 0
+        ItemID: SKULL_ITEM
+        Model: 3
+        Name: '&f欢迎&6%vipSystem_vipGroup%&f%player_name%'
+        Lore:
+        - '&6你的点券数量：&a%playerpoints_points%'
+      '8':
+        Position: 28
+        ItemID: STORAGEDRAWERS_SHROUD_KEY
+        Name: '&f购买一把&a普通抽奖箱钥匙'
+        Lore:
+        - '&6价格：200点券'
+        Cost:
+          Type: PlayerPoints
+          Price: 200
         Function:
           Command:
             Use: true
             Content:
-            - paygui newbie1
-      '7':
+            - crate key {player} 普通抽奖箱 1
+            RunAsOp: true
+      '9':
+        Position: 30
+        ItemID: STORAGEDRAWERS_DRAWER_KEY
+        Name: '&f购买一把&3中级抽奖箱钥匙'
+        Lore:
+        - '&6价格：300点券'
+        Cost:
+          Type: PlayerPoints
+          Price: 300
+        Function:
+          Command:
+            Use: true
+            Content:
+            - crate key {player} 中级抽奖箱 1
+            RunAsOp: true
+      '10':
+        Position: 32
+        ItemID: STORAGEDRAWERS_QUANTIFY_KEY
+        Name: '&f购买一把&5高级抽奖箱钥匙'
+        Lore:
+        - '&6价格：500点券'
+        Cost:
+          Type: PlayerPoints
+          Price: 500
+        Function:
+          Command:
+            Use: true
+            Content:
+            - crate key {player} 高级抽奖箱 1
+            RunAsOp: true
+      '11':
+        Position: 34
+        ItemID: STORAGEDRAWERS_PERSONAL_KEY
+        Name: '&f购买一把&4终极抽奖箱钥匙'
+        Lore:
+        - '&6价格：800点券'
+        Cost:
+          Type: PlayerPoints
+          Price: 800
+        Function:
+          Command:
+            Use: true
+            Content:
+            - crate key {player} 终极抽奖箱 1
+            RunAsOp: true
+      '12':
         Position: 53
         ItemID: redstone
         Name: '&a返回主页'
