@@ -24,12 +24,12 @@ disabled-worlds:
 
 board:
   title:
-    interval: 3
+    interval: 80
     liner:
       - '&4> &c&l%player_name% &4<'
   rows:
     1:
-      interval: 5
+      interval: 80
       liner:
       - '&c-------------------'
     2:
@@ -47,33 +47,25 @@ board:
     5:
       interval: 80
       liner:
-      - '&c延迟:'
-    6:
-      interval: 5
-      liner:
-      - '%player_ping% ms'
-    7:
-      interval: 80
-      liner:
       - ''
-    '8':
+    6
       interval: 80
       liner:
       - '&c金币:'
-    '9':
+    7:
       interval: 20
       liner:
       - '%vault_eco_balance_fixed%'
-    10:
+    8:
       interval: 80
       liner:
       - ''
-    11:
+    9:
       interval: 80
       liner:
       - '&c点券:'
-    12:
-      interval: 80
+    10:
+      interval: 20
       liner:
       - '%playerpoints_points%'
     50:
