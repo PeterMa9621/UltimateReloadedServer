@@ -87,7 +87,7 @@ GUI:
             Use: false
             Number: 2
       '6':
-        Position: 14
+        Position: 13
         # 物品ID为 "主ID:附加值"
         ItemID: 'THERMALFOUNDATION_COIN'
         Name: '&6打开主城商店'
@@ -101,7 +101,7 @@ GUI:
             Use: false
             Number: 2
       '7':
-        Position: 12
+        Position: 11
         # 物品ID为 "主ID:附加值"
         ItemID: 'IRONCHEST_IRON_CHEST'
         Model: 2
@@ -174,6 +174,19 @@ GUI:
           OpenAnotherGUI:
             Use: false
             Id: '1'
+      '11':
+        Position: 15
+        ItemID: 'DIAMOND'
+        Name: '&6打开全球市场'
+        Lore: '&2点击打开全球市场'
+        Function:
+          Command:
+            Use: true
+            Content: 
+            - 'market'
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
   '1':
     Name: '&5&l赞助商城'
     Item:
@@ -228,6 +241,8 @@ GUI:
         - '&f- &3获得普通抽奖钥匙1把'
         - '&f- &3聊天彩字，随身工作台'
         - '&f- &3设置4个家，随身末影箱'
+        - '&f- &3圈地数量:4块领地'
+        - '&f- &3圈地总大小:64*64个方块'
         - '&5价格：1500点券'
         Cost:
           Type: PlayerPoints
@@ -252,6 +267,8 @@ GUI:
         - '&f- &3获得3000金币'
         - '&f- &3获得中级抽奖钥匙1把'
         - '&f- &3设置6个家'
+        - '&f- &3圈地数量:6块领地'
+        - '&f- &3圈地大小:128*128个方块'
         - '&5价格：3000点券'
         Cost:
           Type: PlayerPoints
@@ -277,6 +294,8 @@ GUI:
         - '&f- &3获得5000金币'
         - '&f- &3获得高级抽奖钥匙1把'
         - '&f- &3设置8个家'
+        - '&f- &3圈地数量:8块领地'
+        - '&f- &3圈地大小:256*256个方块'
         - '&5价格：5000点券'
         Cost:
           Type: PlayerPoints

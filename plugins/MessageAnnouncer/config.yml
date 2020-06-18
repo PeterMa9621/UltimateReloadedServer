@@ -1,0 +1,37 @@
+# MessageAnnouncer v1.11.0 Main configuration
+announcer_enabled: true
+announcer_random: false
+announce_interval: 120
+sound:
+  enabled: false
+  sound_name: NOTE_PLING
+  volume: 10
+  pitch: 1
+interval_announcement_list:
+- test
+- donate
+- checkIn
+- choujiang
+- residence
+- QQ
+- antiCheat
+- shop
+announcements:
+  donate:
+  - '[{"text":"[服务器公告] ","color":"light_purple"},{"text":"如果你喜欢我们服务器，欢迎赞助我们。","color":"green"},{"text":"点击打开赞助界面","color":"gold","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/clock
+    open 1"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"点击打开赞助网站","color":"red"}]}}}]'
+  test:
+  - '[{"text":"[服务器公告] ","color":"light_purple"},{"text":"目前模组服务器还处于测试中，如遇BUG请汇报给管理员，我们的QQ群：571075430","color":"green"}]'
+  checkIn:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"你今天签到了吗？每天坚持签到，获得丰厚奖励！","color":"white"},{"text":"立刻点击签到","color":"dark_aqua","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/dailyreward
+    "},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"立刻点击签到","color":"yellow"}]}}}]'
+  choujiang:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/warp cj 即可传送到抽奖屋","color":"aqua"}]'
+  residence:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"你只能在生存区和地狱圈地，圈地工具是木棍，圈地指令是/rp。","color":"aqua"}]'
+  QQ:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"进群以获取更多信息和最新的公告，QQ群：571075430。","color":"aqua"}]'
+  antiCheat:
+  - '[{"text":"[服务器公告] ","color":"light_purple"},{"text":"服务器内严禁一切作弊行为，如有发现1次警告，再犯直接封IP。","color":"red"}]'
+  shop:
+  - '[{"text":"[小提示] ","color":"gold"},{"text":"输入/shop可以快速打开商店","color":"white"},{"text":"点这里试试","color":"dark_purple","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/shop"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"打开商店","color":"yellow"}]}}}]'
