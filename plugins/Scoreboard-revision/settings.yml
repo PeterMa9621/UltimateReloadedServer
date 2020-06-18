@@ -48,7 +48,7 @@ board:
       interval: 80
       liner:
       - ''
-    6
+    6:
       interval: 80
       liner:
       - '&c金币:'
