@@ -55,7 +55,7 @@ board:
     7:
       interval: 80
       liner:
-      - '&6%redprotect_player_used_blocks%/%redprotect_player_total_claims%'
+      - '&6%redprotect_player_used_blocks%/%redprotect_player_total_blocks%'
     8:
       interval: 80
       liner:
