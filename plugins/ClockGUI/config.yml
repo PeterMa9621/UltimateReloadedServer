@@ -31,7 +31,7 @@ GUI:
             Use: false
             Number: 2
       '2':
-        Position: 2
+        Position: 6
         # 物品ID为 "主ID:附加值"
         ItemID: 'NETHERRACK'
         Name: '&6传送至地狱'
@@ -45,7 +45,7 @@ GUI:
             Use: false
             Number: 2
       '3':
-        Position: 4
+        Position: 8
         # 物品ID为 "主ID:附加值"
         ItemID: 'ENDER_STONE'
         Name: '&6传送至末地'
@@ -59,7 +59,7 @@ GUI:
             Use: false
             Number: 2
       '4':
-        Position: 6
+        Position: 4
         # 物品ID为 "主ID:附加值"
         ItemID: 'AVARITIA_INFINITY_PICKAXE'
         Name: '&6传送至矿界'
@@ -73,21 +73,21 @@ GUI:
             Use: false
             Number: 2
       '5':
-        Position: 8
+        Position: 2
         # 物品ID为 "主ID:附加值"
-        ItemID: 'TWILIGHTFOREST_MINIATURE_STRUCTURE'
-        Name: '&6传送至暮色森林'
-        Lore: '&2点击传送至暮色森林'
+        ItemID: 'TCONSTRUCT_TOOLTABLES'
+        Name: '&6传送至生存世界'
+        Lore: '&2点击传送至生存世界'
         Function:
           Command:
             Use: true
             Content: 
-            - 'warp ms'
+            - 'warp sc'
           OpenAnotherGUI:
             Use: false
             Number: 2
       '6':
-        Position: 13
+        Position: 12
         # 物品ID为 "主ID:附加值"
         ItemID: 'THERMALFOUNDATION_COIN'
         Name: '&6打开主城商店'
@@ -101,7 +101,7 @@ GUI:
             Use: false
             Number: 2
       '7':
-        Position: 11
+        Position: 10
         # 物品ID为 "主ID:附加值"
         ItemID: 'IRONCHEST_IRON_CHEST'
         Model: 2
@@ -175,7 +175,7 @@ GUI:
             Use: false
             Id: '1'
       '11':
-        Position: 15
+        Position: 14
         ItemID: 'DIAMOND'
         Name: '&6打开全球市场'
         Lore: 
@@ -186,6 +186,19 @@ GUI:
             Use: true
             Content: 
             - 'ca gui'
+          OpenAnotherGUI:
+            Use: false
+            Number: 2
+      '12':
+        Position: 16
+        ItemID: 'TWILIGHTFOREST_MINIATURE_STRUCTURE'
+        Name: '&6传送至暮色森林'
+        Lore: '&2点击传送至暮色森林'
+        Function:
+          Command:
+            Use: true
+            Content: 
+            - 'warp ms'
           OpenAnotherGUI:
             Use: false
             Number: 2
