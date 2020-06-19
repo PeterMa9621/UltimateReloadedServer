@@ -1,9 +1,9 @@
 Clock:
   AutoGetClock: true
   MainGuiId: 0
-  Name: '&a&l艾伯塔模组服钟表菜单'
+  Name: '&a&l艾伯塔模组服菜单'
   Lore:
-  - '&6艾伯塔模组服钟表菜单'
+  - '&6艾伯塔模组服菜单'
   - '&2右键我打开菜单'
   World:
   - spawn
