@@ -87,7 +87,7 @@ physics:
     disable-water-damage-blocks: []
 ignition:
     block-tnt: false
-    block-tnt-block-damage: false
+    block-tnt-block-damage: true
     block-lighter: false
 fire:
     disable-lava-fire-spread: true
@@ -100,7 +100,7 @@ mobs:
     block-wither-explosions: false
     block-wither-block-damage: true
     block-wither-skull-explosions: false
-    block-wither-skull-block-damage: false
+    block-wither-skull-block-damage: true
     block-enderdragon-block-damage: true
     block-enderdragon-portal-creation: false
     block-fireball-explosions: false
