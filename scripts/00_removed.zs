@@ -40,3 +40,7 @@ mods.jei.JEI.removeAndHide(<xreliquary:mob_charm>.withTag({type: 12 as byte}));
 
 #AE portable cells
 mods.jei.JEI.removeAndHide(<appliedenergistics2:portable_cell>);
+
+#Steve cat chunk loaders
+mods.jei.JEI.removeAndHide(<stevescarts:cartmodule:49>);
+recipes.remove(<stevescarts:cartmodule:49>);
