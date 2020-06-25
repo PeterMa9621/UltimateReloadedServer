@@ -40,7 +40,7 @@ MyFirstPresent:
   ActiveReward:
     Item: STORAGE_MINECART
     Amount: 1
-    Glow: true
+    Glow: false
     Lore:
     - '&7[Player] 这个礼物是给&6高级会员及以上的会员&7准备的'
     - '&3在钟表菜单内商城购买会员组'
@@ -85,7 +85,7 @@ PresentmanItem2:
     - '&3在钟表菜单内商城购买会员组'
   InactiveReward:
     Item: MINECART
-    Amount: 2
+    Amount: 1
     Glow: false
     Lore:
     - '&c[Player]，你已经领取过这个奖励了!'

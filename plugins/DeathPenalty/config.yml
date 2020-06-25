@@ -1,0 +1,10 @@
+disabledWorlds:
+loseMoneyNumber: 2%
+loseItemNumber: 0
+loseExpNumber: 15%
+usingTitleForDeathMessage: true
+deathMessageTitle: '&4死亡惩罚'
+deathMessage: '&6你{0}'
+loseMoneyMessage: '&6损失了&c{0}&6个金币'
+loseItemMessage: '&6，{0}个物品'
+loseExpMessage: '&6和&c{0}&6点经验'
