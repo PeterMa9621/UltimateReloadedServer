@@ -1,0 +1,9 @@
+Economy:
+  Enabled: true
+  Price: 10
+CustomWorlds:
+  Enabled: true
+  Worlds:
+    world: 10
+    world_end: 0
+    DIM-2: 40

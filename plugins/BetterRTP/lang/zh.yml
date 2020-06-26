@@ -1,0 +1,52 @@
+Messages:
+  Prefix: '&7[&6随机传送&7] '
+  Success:
+    Paid: '&a你已经传送到&7 x=%x% y=%y% z=%z%，花费&c$%price%&7金币!'
+    Bypass: '&a你已经传送到&7 x=%x% y=%y% z=%z%'
+  Failed:
+    Price: '&c你没有足够的金币随机传送! &7你必须拥有至少$%price%个金币!'
+    NotSafe: '&c无法随机传送到一个安全的地方，已经尝试了%attempts%次!'
+  Other:
+    Success: '&a%player%已被随机传送到&7 x=%x% y=%y% z=%z%!'
+    NotSafe: '&c无法随机传送玩家%player%到一个安全的地方，已经尝试了%attempts%次!'
+    Biome: '&c生物群落&7 %biome%&c 不存在! &7尝试使用Tab补全!'
+  Reload: '&e配置已重载!'
+  NoPermission:
+    Basic: '&c你没有权限这么做!'
+    World: '&c你没有权限在该世界随机传送!'
+  DisabledWorld: '&c已被禁用的世界%world%! &7无法使用随机传送!'
+  Cooldown: '&c抱歉！&7你需要等待&c%time%&7秒后才能再次传送!'
+  Invalid: '&c无效的命令. 输入 ''/%command% help''查看帮助'
+  NotOnline: '&c玩家&7%player%&c不在线!'
+  Delay: '&a传送将在&f%time%&a秒后启动!请不要移动!'
+  Moved: '&c你移动了! &7随机传送被取消!'
+  NotExist: '&c世界&7%world%&c不存在!'
+  Already: '&c抱歉! &7你已经在准备随机传送中，请等待随机传送结束!'
+  Sign: '&7命令木牌已创建! &7命令为''&f/rtp %command%&7'''
+Titles:
+  Enabled: true
+  Delay:
+    SendChatMessage: true
+    Title: '&6随机传送'
+    Subtitle: '&f随机传送将在%time%秒后启动!'
+  Success:
+    SendChatMessage: true
+    Title: '&6随机传送'
+    Subtitle: '&f传送到x=%x% y=%y% z=%z%'
+Help:
+  List:
+  - '&e&m------&r &6&l随机传送 &8| &7帮助 &e&m------'
+  - ' &7- &e/%command% &7- 随机传送你!'
+  - ' &7- &e/%command% help &7- 显示帮助列表'
+  Player: ' &7- &e/%command% player <player> [world] [biome1, biome2...] &7- 随机传送玩家'
+  World: ' &7- &e/%command% world <world> [biome1, biome2...] &7- 随机传送到指定世界'
+  Biome: ' &7- &e/%command% biome <biome1, biome2...> &7- 随机传送到指定生物群落'
+  Reload: ' &7- &e/%command% reload &7- 重载插件'
+Usage:
+  Player: '&c用法7: /%command% player <player> [world] [biome1, biome2]'
+  World: '&c用法&7: /%command% world <world> [biome1, biome2...]'
+  Biome: '&c用法&7: /%command% biome <biome1, biome2...>'
+Sounds:
+  Enabled: true
+  Delay: entity_tnt_primed
+  Success: entity_generic_explode
