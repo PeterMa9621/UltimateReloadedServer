@@ -193,10 +193,9 @@ GUI:
       '12':
         Position: 16
         ItemID: 'TWILIGHTFOREST_MINIATURE_STRUCTURE'
-        Name: '&6传送至暮色森林&c&l(死亡掉落)'
+        Name: '&6传送至暮色森林'
         Lore: 
         - '&2点击传送至暮色森林'
-        - '&c注意：暮色森林开启死亡掉落'
         Function:
           Command:
             Use: true
