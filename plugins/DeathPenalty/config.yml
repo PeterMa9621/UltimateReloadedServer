@@ -1,5 +1,5 @@
 disabledWorlds:
-loseMoneyNumber: 2%
+loseMoneyNumber: 1%
 loseItemNumber: 0
 loseExpNumber: 15%
 usingTitleForDeathMessage: true
