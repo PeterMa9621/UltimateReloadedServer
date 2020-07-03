@@ -16,7 +16,7 @@
 #mods.jei.JEI.removeAndHide(<ic2:energy_pack:26>);
 
 #remove mining laser
-mods.jei.JEI.removeAndHide(<ic2:mining_laser:*>);
+#mods.jei.JEI.removeAndHide(<ic2:mining_laser:*>);
 
 #remove TNTs
 mods.jei.JEI.removeAndHide(<ic2:te:1>);
