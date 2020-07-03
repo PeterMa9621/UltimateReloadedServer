@@ -391,7 +391,7 @@ GUI:
       '11':
         Position: 34
         ItemID: TRIPWIRE_HOOK
-        Name: '&f购买一把&4终极抽奖箱钥匙'
+        Name: '&f购买一把&4终级抽奖箱钥匙'
         Lore:
         - '&6价格：800点券'
         Cost:
@@ -401,7 +401,7 @@ GUI:
           Command:
             Use: true
             Content:
-            - crate key {player} 终极抽奖箱 1
+            - crate key {player} 终级抽奖箱 1
             RunAsOp: true
         Enchantment:
           ID: 35
