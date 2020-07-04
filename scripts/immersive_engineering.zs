@@ -202,7 +202,7 @@ recipes.remove(<immersiveengineering:wirecoil:1>);
 recipes.remove(<immersiveengineering:wirecoil>);
 recipes.addShaped(<immersiveengineering:wirecoil:5> * 8, [[null, <ore:dustRedstone>, null],[<ore:dustRedstone>, <ore:stickWood>, <ore:dustRedstone>], [null, <ore:dustRedstone>, null]]);
 recipes.addShaped(<immersiveengineering:wirecoil:4> * 8, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
-recipes.addShaped(<immersiveengineering:wirecoil:2> * 8, [[null, <ore:ingotRefinedIron>, null],[<ore:ingotRefinedIron>, <ore:stickWood>, <ore:ingotRefinedIron>], [null, <ore:ingotRefinedIron>, null]]);
+recipes.addShaped(<immersiveengineering:wirecoil:2> * 8, [[null, <thermalfoundation:material:132>, null],[<thermalfoundation:material:160>, <ore:stickWood>, <thermalfoundation:material:160>], [null, <thermalfoundation:material:132>, null]]);
 recipes.addShaped(<immersiveengineering:wirecoil:1> * 8, [[null, <ore:ingotElectrum>, null],[<ore:ingotElectrum>, <ore:stickWood>, <ore:ingotElectrum>], [null, <ore:ingotElectrum>, null]]);
 recipes.addShaped(<immersiveengineering:wirecoil> * 8, [[null, <ore:ingotCopper>, null],[<ore:ingotCopper>, <ore:stickWood>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]);
 
@@ -218,4 +218,4 @@ recipes.addShaped(<immersiveengineering:connector:8>, [[<immersiveengineering:co
 
 #skyhook
 recipes.remove(<immersiveengineering:skyhook>);
-recipes.addShaped(<immersiveengineering:skyhook>, [[<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, null],[<ore:ingotRefinedIron>, <immersiveengineering:material:1>, null], [null, null, <immersiveengineering:material:1>]]);
+recipes.addShaped(<immersiveengineering:skyhook>, [[<thermalfoundation:material:160>, <thermalfoundation:material:160>, null],[<thermalfoundation:material:160>, <immersiveengineering:material:1>, null], [null, null, <immersiveengineering:material:1>]]);
