@@ -21,6 +21,7 @@ recipes.addShaped(<gravisuite:advancedlappack:26>, [[null, <ic2:lappack:26>.anyD
 
 #EV energy converters
 recipes.remove(<energyconverters:energy_producer_eu:3>);
+recipes.addShaped(<energyconverters:energy_producer_eu:3>, [[<ore:stone>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 1 as byte}), <ore:stone>],[<ic2:te:80>, <ic2:resource:13>, <minecraft:gold_ingot>], [<ore:stone>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 1 as byte}), <ore:stone>]]);
 recipes.addShapeless(<energyconverters:energy_producer_eu:3>, [<energyconverters:energy_consumer_eu:3>]);
 
 #IV energy converters
@@ -28,5 +29,7 @@ recipes.remove(<energyconverters:energy_producer_eu:4>);
 recipes.addShapeless(<energyconverters:energy_producer_eu:4>, [<energyconverters:energy_consumer_eu:4>]);
 
 #FE energy converters
-mods.jei.JEI.removeAndHide(<energyconverters:energy_consumer_fe>);
-mods.jei.JEI.removeAndHide(<energyconverters:energy_producer_fe>);
+mods.jei.JEI.removeAndHide(<energyconverters:energy_consumer_rf>);
+mods.jei.JEI.removeAndHide(<energyconverters:energy_producer_rf>);
+recipes.remove(<energyconverters:energy_producer_fe>);
+recipes.addShaped(<energyconverters:energy_producer_fe>, [[<ore:blockIron>, <ore:blockGold>, <ore:blockIron>],[<thermalexpansion:cell>, <thermalexpansion:dynamo:4>, <thermalexpansion:cell>], [<ore:blockIron>, <ore:blockGold>, <ore:blockIron>]]);
