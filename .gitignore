@@ -178,3 +178,5 @@ plugins/newtShop/categories/
 libraries/
 
 plugins/DailyRewards/data.db
+
+plugins/CoreProtect/database.db
