@@ -69,3 +69,13 @@ recipes.addShaped(<ic2:crafting:10> * 4, [[null, null, null],[<ore:ingotTin>, nu
 
 #remove mass fab in favor of matter fab
 #mods.jei.JEI.removeAndHide(<ic2:te:92>);
+
+# remove wrench
+recipes.remove(<ic2:wrench>);
+mods.jei.JEI.removeAndHide(<ic2:wrench>);
+
+recipes.remove(<ic2:wrench_new>);
+mods.jei.JEI.removeAndHide(<ic2:wrench_new>);
+
+recipes.remove(<ic2:electric_wrench:*>);
+mods.jei.JEI.removeAndHide(<ic2:electric_wrench:*>);

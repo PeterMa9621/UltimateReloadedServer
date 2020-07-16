@@ -44,3 +44,7 @@ mods.jei.JEI.removeAndHide(<appliedenergistics2:portable_cell>);
 #Steve cat chunk loaders
 mods.jei.JEI.removeAndHide(<stevescarts:cartmodule:49>);
 recipes.remove(<stevescarts:cartmodule:49>);
+
+# Remove travel sack
+mods.jei.JEI.removeAndHide(<conarm:travel_sack>);
+recipes.remove(<conarm:travel_sack>);
