@@ -79,3 +79,11 @@ mods.jei.JEI.removeAndHide(<ic2:wrench_new>);
 
 recipes.remove(<ic2:electric_wrench:*>);
 mods.jei.JEI.removeAndHide(<ic2:electric_wrench:*>);
+
+# remove pilianggongzuotai
+recipes.remove(<ic2:te:89>);
+mods.jei.JEI.removeAndHide(<ic2:te:89>);
+
+# remove gongyegongzuotai
+recipes.remove(<ic2:te:88>);
+mods.jei.JEI.removeAndHide(<ic2:te:88>);

@@ -48,3 +48,7 @@ recipes.remove(<stevescarts:cartmodule:49>);
 # Remove travel sack
 mods.jei.JEI.removeAndHide(<conarm:travel_sack>);
 recipes.remove(<conarm:travel_sack>);
+
+# Remove chuwuxiang
+mods.jei.JEI.removeAndHide(<thermalexpansion:cache>);
+recipes.remove(<thermalexpansion:cache>);

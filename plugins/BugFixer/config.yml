@@ -17,3 +17,6 @@ banItemsUsingAnvil:
 
 banMaterialNameUsingAnvil:
 - shulker_box
+
+banBlocks:
+- thermalexpansion_cache

@@ -50,6 +50,26 @@ BanItem:
   # 所以只要把基岩方块的名字或者数字id添加到此处即可
   BlocksNotSetToAir:
   - BEDROCK
+# BanItem世界物品继承列表,格式和例子: 
+# InhertItemList:
+#   world:
+#     Inhert:
+#     # 继承自全局世界配置
+#     - /default/
+#     # 此处设置自定义物品列表,物品配置读取自BanItem\PreferItemList\***.yml下
+#     # 什么是自定义物品列表? 例如你把ic2 mod里ban掉的物品整理出来放到了ic2.yml中,那么换周目的时候,只要把ic2.yml放到PreferItemList\,这样新周目ic2的物品就不需要重新去ban了
+#     Prefer:
+#     - ic2
+#   # 你也可以为全局世界配置继承设置和自定义物品列表设置
+#   /default/:
+#     # 例如全局世界设置自定义列表thaumcraft的配置,那么继承了默认世界或者未配置继承设置的世界都会继承自定义列表thaumcraft的配置
+#     Prefer:
+#     - thaumcraft
+#   main:
+#     Inhert:
+#     - world
+# 只有在此配置中配置过的世界,命令中的w,world参数才能生效
+# 每个世界自己的列表在 BanItem\WorldItem\世界名 下
 InhertItemList: {}
 # 黑名单方块检查设置
 # 注意,黑名单方块的定义为禁止了所有权限的方块
@@ -81,6 +101,8 @@ BlackBlockSetting:
   - LEAVES
   - SPONGE
   - GLASS
+# 聊天窗口输出字体颜色设置
+# 此配置可以活用,其实这就是消息的前缀
 Color:
   # 带功能的文字颜色
   Link: §9
