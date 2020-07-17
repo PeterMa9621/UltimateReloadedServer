@@ -20,3 +20,6 @@ banMaterialNameUsingAnvil:
 
 banBlocks:
 - thermalexpansion_cache
+
+banInventories:
+- ic2.te.batch_crafter
