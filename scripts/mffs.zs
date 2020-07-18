@@ -25,3 +25,7 @@ recipes.remove(<modularforcefieldsystem:option_camoflage>);
 
 #force power crystal
 recipes.addShaped(<modularforcefieldsystem:forcepower_crystal:101>.withTag({ForceEnergy: 0}), [[<modularforcefieldsystem:forcicium>, <modularforcefieldsystem:forcicium>, <modularforcefieldsystem:forcicium>],[<modularforcefieldsystem:forcicium>, <minecraft:diamond>, <modularforcefieldsystem:forcicium>], [<modularforcefieldsystem:forcicium>, <modularforcefieldsystem:forcicium>, <modularforcefieldsystem:forcicium>]]);
+
+#camoflage projector option
+recipes.remove(<modularforcefieldsystem:multitool_wrench:0>);
+recipes.addShaped(<modularforcefieldsystem:multitool_wrench:0>, [[<minecraft:redstone>, <appliedenergistics2:nether_quartz_wrench>, <minecraft:lever>],[<ic2:crafting:15>, <modularforcefieldsystem:forcepower_crystal:101>, <ic2:crafting:15>], [<ic2:crafting:15>, <ic2:crafting:2>, <ic2:crafting:15>]]);

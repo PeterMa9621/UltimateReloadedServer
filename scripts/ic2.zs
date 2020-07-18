@@ -87,3 +87,11 @@ mods.jei.JEI.removeAndHide(<ic2:te:89>);
 # remove gongyegongzuotai
 recipes.remove(<ic2:te:88>);
 mods.jei.JEI.removeAndHide(<ic2:te:88>);
+
+#change recipe of MFSU Upgrade
+recipes.remove(<ic2:upgrade_kit:0>);
+recipes.addShaped(<ic2:upgrade_kit:0>, [[<ic2:lapotron_crystal:*>,<ic2:crafting:2>,<ic2:lapotron_crystal:*>],[<ic2:lapotron_crystal:*>,<appliedenergistics2:nether_quartz_wrench>,<ic2:lapotron_crystal:*>], [<ic2:lapotron_crystal:*>, <ic2:resource:13>, <ic2:lapotron_crystal:*>]]);
+
+#change recipe of gravitool
+recipes.remove(<gravisuite:gravitool>);
+recipes.addShaped(<gravisuite:gravitool>, [[<ic2:crafting:15>,<ic2:electric_hoe:*>,<ic2:crafting:15>],[<ic2:crafting:3>,<ic2:energy_crystal:*>,<ic2:crafting:3>], [<appliedenergistics2:nether_quartz_wrench>, <ic2:crafting:2>, <ic2:electric_treetap:*>]]);
