@@ -21,7 +21,7 @@ recipes.addShaped(<gravisuite:advancedlappack:26>, [[null, <ic2:lappack:26>.anyD
 
 #EV energy converters
 recipes.remove(<energyconverters:energy_producer_eu:3>);
-recipes.addShaped(<energyconverters:energy_producer_eu:3>, [[<ore:stone>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 1 as byte}), <ore:stone>],[<ic2:te:80>, <ic2:resource:13>, <minecraft:gold_ingot>], [<ore:stone>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 1 as byte}), <ore:stone>]]);
+recipes.addShaped(<energyconverters:energy_producer_eu:3>, [[<ore:stone>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ore:stone>],[<ic2:te:80>, <ic2:resource:13>, <minecraft:gold_ingot>], [<ore:stone>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), <ore:stone>]]);
 recipes.addShapeless(<energyconverters:energy_producer_eu:3>, [<energyconverters:energy_consumer_eu:3>]);
 
 #IV energy converters
